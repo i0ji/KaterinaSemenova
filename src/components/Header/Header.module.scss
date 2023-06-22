@@ -9,14 +9,18 @@
   a {
     position: relative;
     cursor: pointer;
-    text-decoration: none
+    text-decoration: none;
+    color: black;
+  }
+
+  a:visited {
+    color: black;
   }
 
   a:after {
     display: block;
     content: "";
-    background-color:
-            black;
+    background-color: black;
     height: 1px;
     width: 0;
     left: 50%;
