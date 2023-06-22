@@ -2,6 +2,7 @@ import React, {useState, useEffect} from "react";
 import styles from './Carousel.module.scss'
 
 
+
 function Carousel(props: any) {
 
     const {children} = props
@@ -48,7 +49,7 @@ function Carousel(props: any) {
                     </div>
 
                     <div className={styles.carousel_description}>
-                        <p>Бассейн под открытым небом «Чайка» —— Фирменный стиль —— 2022</p>
+                        <p>{props.description}</p>
                         {`${currentIndex + 1} / ${length}`}
                     </div>
 

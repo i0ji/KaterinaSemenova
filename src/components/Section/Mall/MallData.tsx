@@ -6,7 +6,7 @@ import mall5 from '../../../assets/MallSlides/mall6.png';
 import mall6 from '../../../assets/MallSlides/mall7.png';
 import mall7 from '../../../assets/MallSlides/mall8.png';
 
-export const MallSlides = [
+export const mallSlides = [
     {img: mall1},
     {img: mall2},
     {img: mall3},
@@ -15,3 +15,4 @@ export const MallSlides = [
     {img: mall6},
     {img: mall7},
 ]
+export const mallDescription = 'Бизнес-центр «Нагатинский» ——  Фирменный стиль —— 2022';
