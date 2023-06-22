@@ -1,9 +1,5 @@
 .section {
-  margin: 61px 18px 80px 18px;
-}
-.section_description {
-  display: flex;
-  justify-content: space-between;
+  height: 1300px;
 }
 .section_image {
   display: flex;
@@ -11,6 +7,7 @@
 }
 .section_image img {
   width: 100%;
+  margin-bottom: 40px;
 }
 
 /*# sourceMappingURL=Anniversary.module.css.map */

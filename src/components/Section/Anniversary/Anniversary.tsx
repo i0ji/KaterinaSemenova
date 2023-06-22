@@ -1,5 +1,6 @@
 import React from "react";
 import Carousel from "../../Carousel/Carousel";
+import styles from './Anniversary.module.scss';
 
 import anniversary_slide1 from '../../../assets/AnniversarySlides/dr1.png'
 import anniversary_slide2 from '../../../assets/AnniversarySlides/dr2.png'
@@ -18,7 +19,7 @@ function Anniversary() {
     ]
 
     return (
-        <div>
+        <div className={styles.section}>
             <Carousel>
                 {
                     slides.map((item, index) => {

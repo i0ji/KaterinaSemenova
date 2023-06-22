@@ -1,11 +1,2 @@
-.section {
+@import '../../../styles/section';
 
-  &_image {
-    display: flex;
-    justify-content: center;
-
-    img {
-      width: 100%;
-    }
-  }
-}

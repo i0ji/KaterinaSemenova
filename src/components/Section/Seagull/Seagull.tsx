@@ -1,5 +1,6 @@
 import React from "react";
 import Carousel from "../../Carousel/Carousel";
+import styles from './Seagull.module.scss';
 
 import seagull_slide1 from '../../../assets/SeagullSlides/Chayka1.png';
 import seagull_slide2 from '../../../assets/SeagullSlides/Chayka2.png';
@@ -24,7 +25,7 @@ function Seagull() {
     ]
 
     return (
-        <div>
+        <div className={styles.section}>
             <Carousel>
                 {
                     slides.map((item, index) => {

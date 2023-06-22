@@ -1,0 +1,13 @@
+.section {
+  height: 1300px;
+
+  &_image {
+    display: flex;
+    justify-content: center;
+
+    img {
+      width: 100%;
+      margin-bottom: 40px;
+    }
+  }
+}

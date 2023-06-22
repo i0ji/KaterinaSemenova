@@ -1,13 +1,17 @@
+::-webkit-scrollbar {
+  width: 0;
+}
+
+html {
+  scroll-behavior: smooth;
+}
+
 body {
   max-width: 1920px;
   margin: 0 auto;
   font-family: Century-gothic, sans-serif;
   line-height: 27px;
   padding: 0 20px;
-}
-
-::-webkit-scrollbar {
-  width: 0;
 }
 
 /*# sourceMappingURL=index.css.map */
