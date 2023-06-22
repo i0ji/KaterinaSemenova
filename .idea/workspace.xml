@@ -1,23 +1,12 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="7005cf98-fb50-495d-8503-e093c84b8493" name="Changes" comment="section description added">
+    <list default="true" id="7005cf98-fb50-495d-8503-e093c84b8493" name="Changes" comment="gh pages build">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/Carousel/Carousel.module.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/Carousel/Carousel.module.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/Carousel/Carousel.module.css.map" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/Carousel/Carousel.module.css.map" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/Carousel/Carousel.module.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/Carousel/Carousel.module.scss" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/Carousel/Carousel.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/Carousel/Carousel.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/package-lock.json" beforeDir="false" afterPath="$PROJECT_DIR$/package-lock.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/package.json" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/components/Header/Header.module.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/Header/Header.module.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/Header/Header.module.css.map" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/Header/Header.module.css.map" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/components/Header/Header.module.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/Header/Header.module.scss" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/Section/Anniversary/Anniversary.module.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/Section/Anniversary/Anniversary.module.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/Section/Mall/Mall.module.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/Section/Mall/Mall.module.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/Section/Seagull/Seagull.module.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/Section/Seagull/Seagull.module.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/Section/Seagull/Seagull.module.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/Section/Seagull/Seagull.module.scss" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/index.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/index.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/index.css.map" beforeDir="false" afterPath="$PROJECT_DIR$/src/index.css.map" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/index.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/index.scss" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/styles/_section.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/styles/_section.scss" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -85,7 +74,7 @@
       <updated>1687427596629</updated>
       <workItem from="1687427597891" duration="4306000" />
       <workItem from="1687435560676" duration="2179000" />
-      <workItem from="1687446305123" duration="4234000" />
+      <workItem from="1687446305123" duration="5892000" />
     </task>
     <task id="LOCAL-00001" summary="index.html name changed;&#10;smooth scroll added;">
       <created>1687429412079</created>
@@ -122,7 +111,14 @@
       <option name="project" value="LOCAL" />
       <updated>1687448016139</updated>
     </task>
-    <option name="localTasksCounter" value="6" />
+    <task id="LOCAL-00006" summary="margin/padding/styling set">
+      <created>1687451582813</created>
+      <option name="number" value="00006" />
+      <option name="presentableId" value="LOCAL-00006" />
+      <option name="project" value="LOCAL" />
+      <updated>1687451582813</updated>
+    </task>
+    <option name="localTasksCounter" value="7" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -157,6 +153,8 @@
     <MESSAGE value="small style touches;&#10;height set;" />
     <MESSAGE value="sections w/slides components done" />
     <MESSAGE value="section description added" />
-    <option name="LAST_COMMIT_MESSAGE" value="section description added" />
+    <MESSAGE value="margin/padding/styling set" />
+    <MESSAGE value="gh pages build" />
+    <option name="LAST_COMMIT_MESSAGE" value="gh pages build" />
   </component>
 </project>
