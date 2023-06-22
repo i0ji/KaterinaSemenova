@@ -1,16 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="7005cf98-fb50-495d-8503-e093c84b8493" name="Changes" comment="blocks/section description setting">
+    <list default="true" id="7005cf98-fb50-495d-8503-e093c84b8493" name="Changes" comment="section description added">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/Carousel/Carousel.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/Carousel/Carousel.tsx" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/components/Section/Anniversary/Anniversary.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/Section/Anniversary/Anniversary.tsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/Section/Anniversary/AnniversaryData.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/Section/Anniversary/AnniversaryData.tsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/Section/Mall/Mall.module.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/Section/Mall/Mall.module.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/Section/Mall/Mall.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/Section/Mall/Mall.tsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/Section/Mall/MallData.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/Section/Mall/MallData.tsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/Section/Seagull/Seagull.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/Section/Seagull/Seagull.tsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/Section/Seagull/SeagullData.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/Section/Seagull/SeagullData.tsx" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -78,7 +71,7 @@
       <updated>1687427596629</updated>
       <workItem from="1687427597891" duration="4306000" />
       <workItem from="1687435560676" duration="2179000" />
-      <workItem from="1687446305123" duration="413000" />
+      <workItem from="1687446305123" duration="1664000" />
     </task>
     <task id="LOCAL-00001" summary="index.html name changed;&#10;smooth scroll added;">
       <created>1687429412079</created>
@@ -101,7 +94,14 @@
       <option name="project" value="LOCAL" />
       <updated>1687439029379</updated>
     </task>
-    <option name="localTasksCounter" value="4" />
+    <task id="LOCAL-00004" summary="section description added">
+      <created>1687447086058</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1687447086058</updated>
+    </task>
+    <option name="localTasksCounter" value="5" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -135,6 +135,7 @@
     <MESSAGE value="index.html name changed;&#10;smooth scroll added;" />
     <MESSAGE value="small style touches;&#10;height set;" />
     <MESSAGE value="sections w/slides components done" />
-    <option name="LAST_COMMIT_MESSAGE" value="sections w/slides components done" />
+    <MESSAGE value="section description added" />
+    <option name="LAST_COMMIT_MESSAGE" value="section description added" />
   </component>
 </project>

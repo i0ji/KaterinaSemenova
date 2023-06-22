@@ -20,12 +20,6 @@ function Anniversary() {
 
                 }
             </Carousel>
-
-            <div>
-                {
-
-                }
-            </div>
         </div>
     )
 }
