@@ -1,13 +1,13 @@
 .section {
-  height: 1300px;
+  margin-bottom: 87px;
 
   &_image {
     display: flex;
     justify-content: center;
 
     img {
+      max-height: 1200px;
       width: 100%;
-      margin-bottom: 40px;
     }
   }
 }
