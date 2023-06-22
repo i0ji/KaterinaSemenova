@@ -24,6 +24,7 @@
   height: 100%;
 }
 .carousel_content {
+  max-height: 1200px;
   display: flex;
   transition: all 250ms linear;
   -ms-overflow-style: none;
@@ -60,6 +61,7 @@
   right: 24px;
 }
 .carousel_description {
+  margin-top: 40px;
   display: flex;
   justify-content: space-between;
 }
