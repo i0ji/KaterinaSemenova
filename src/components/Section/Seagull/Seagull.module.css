@@ -1,0 +1,9 @@
+.section_image {
+  display: flex;
+  justify-content: center;
+}
+.section_image img {
+  width: 100%;
+}
+
+/*# sourceMappingURL=Seagull.module.css.map */
