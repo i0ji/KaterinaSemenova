@@ -1,0 +1,13 @@
+.section {
+  height: 1300px;
+}
+.section_image {
+  display: flex;
+  justify-content: center;
+}
+.section_image img {
+  width: 100%;
+  margin-bottom: 40px;
+}
+
+/*# sourceMappingURL=Mall.module.css.map */
