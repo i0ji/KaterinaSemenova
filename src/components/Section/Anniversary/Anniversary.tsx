@@ -1,15 +1,16 @@
 import React from "react";
 import Carousel from "../../Carousel/Carousel";
 import styles from './Anniversary.module.scss';
-import {AnniversarySlides} from "./AnniversaryData";
+import {anniversarySlides} from "./AnniversaryData";
+import {anniversaryDescription} from "./AnniversaryData";
 
 function Anniversary() {
 
     return (
         <div className={styles.section}>
-            <Carousel>
+            <Carousel description={anniversaryDescription}>
                 {
-                    AnniversarySlides.map((item, index) => {
+                    anniversarySlides.map((item, index) => {
                         return (
                             <div>
                                 <img src={item.img} alt={'Чайка. Фирменный стиль, 2022 г.'}/>

@@ -1,15 +1,16 @@
 import React from "react";
 import Carousel from "../../Carousel/Carousel";
 import styles from './Mall.module.scss';
-import {MallSlides} from "./MallData";
+import {mallSlides} from "./MallData";
+import {mallDescription} from "./MallData";
 
 function Mall() {
 
     return (
         <div className={styles.section}>
-            <Carousel>
+            <Carousel description={mallDescription}>
                 {
-                    MallSlides.map((item, index) => {
+                    mallSlides.map((item, index) => {
                         return (
                             <div>
                                 <img src={item.img} alt={'Чайка. Фирменный стиль, 2022 г.'}/>

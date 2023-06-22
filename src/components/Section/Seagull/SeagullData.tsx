@@ -8,7 +8,7 @@ import seagull_slide7 from '../../../assets/SeagullSlides/Chayka7.png';
 import seagull_slide8 from '../../../assets/SeagullSlides/Chayka8.png';
 
 
-export const SeagullSlides = [
+export const seagullSlides = [
     {img: seagull_slide1},
     {img: seagull_slide2},
     {img: seagull_slide3},
@@ -18,3 +18,4 @@ export const SeagullSlides = [
     {img: seagull_slide7},
     {img: seagull_slide8},
 ]
+export const seagullDescription = 'Бассейн под открытым небом «Чайка» —— Фирменный стиль —— 2022';
