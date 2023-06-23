@@ -10,7 +10,7 @@
   justify-content: space-between;
 }
 .footer__about div:nth-child(2) {
-  width: 51%;
+  width: 55%;
 }
 .footer__contacts {
   margin: 40px 0;
@@ -20,7 +20,7 @@
   justify-content: space-between;
 }
 .footer__contacts div:nth-child(2) {
-  width: 51%;
+  width: 55%;
 }
 .footer hr {
   width: 100%;
