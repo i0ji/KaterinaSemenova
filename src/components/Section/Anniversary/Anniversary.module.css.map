@@ -1,1 +1,1 @@
-{"version":3,"sourceRoot":"","sources":["../../../styles/_section.scss"],"names":[],"mappings":"AAAA;EACE;;AAEA;EACE;EACA;;AAEA;EACE;EACA","file":"Anniversary.module.css"}
+{"version":3,"sourceRoot":"","sources":["../../../styles/_section.scss","Anniversary.module.scss"],"names":[],"mappings":"AAEE;EACE;EACA;;AAEA;EACE;EACA;;;ACNN;EACE","file":"Anniversary.module.css"}

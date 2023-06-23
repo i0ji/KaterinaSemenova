@@ -7,7 +7,7 @@ import {seagullDescription} from './SeagullData';
 function Seagull() {
 
     return (
-        <div className={styles.section}>
+        <div className={`${styles.section} ${styles.section_margin}`}>
             <Carousel description={seagullDescription}>
                 {
                     seagullSlides.map((item, index) => {

@@ -1,7 +1,5 @@
 import React from 'react';
 import ReactDOM from 'react-dom/client';
-import './styles/_reset.scss'
-import './styles/_font.scss'
 import App from './App';
 require('./index.scss')
 
