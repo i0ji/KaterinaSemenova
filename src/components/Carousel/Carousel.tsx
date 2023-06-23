@@ -48,7 +48,7 @@ function Carousel(props: any) {
 
                     <div className={styles.carousel_description}>
                         <p>{props.description}</p>
-                        {`${currentIndex + 1} / ${length}`}
+                        <p>{`${currentIndex + 1} / ${length}`}</p>
                     </div>
 
                 </div>

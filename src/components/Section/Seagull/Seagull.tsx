@@ -1,8 +1,7 @@
 import React from 'react';
 import Carousel from '../../Carousel/Carousel';
 import styles from './Seagull.module.scss';
-import {seagullSlides} from './SeagullData';
-import {seagullDescription} from './SeagullData';
+import {seagullSlides, seagullDescription} from './SeagullData';
 
 function Seagull() {
 
