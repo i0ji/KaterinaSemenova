@@ -38,33 +38,33 @@
   flex-grow: 1;
 }
 .carousel .left_button, .carousel .right_button {
-  cursor: pointer;
+  padding: 0;
+  margin: 0;
+  border: none;
   position: absolute;
   z-index: 1;
-  top: 50%;
-  width: 40px;
-  height: 40px;
-  border-radius: 50%;
-  border: rgba(250, 255, 255, 0.6);
+  width: 50%;
+  height: 94.7%;
   background-color: white;
-  border: 1px solid #ddd;
   transition: 0.5s all;
-  opacity: 0.7;
-}
-.carousel .left_button:hover, .carousel .right_button:hover {
-  opacity: 0.5;
-  transform: scale(0.95);
+  opacity: 0;
 }
 .carousel .left_button {
-  left: 24px;
+  left: 0;
 }
 .carousel .right_button {
-  right: 24px;
+  right: 0;
 }
 .carousel_description {
   margin-top: 40px;
   display: flex;
   justify-content: space-between;
+}
+
+@media (max-width: 1060px) {
+  .carousel_description p:nth-child(2) {
+    display: none;
+  }
 }
 
 /*# sourceMappingURL=Carousel.module.css.map */

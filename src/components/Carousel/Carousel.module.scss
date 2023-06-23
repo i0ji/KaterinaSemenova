@@ -42,36 +42,37 @@
   }
 
   .left_button, .right_button {
-    cursor: pointer;
+    padding: 0;
+    margin: 0;
+    border: none;
     position: absolute;
     z-index: 1;
-    top: 50%;
-    width: 40px;
-    height: 40px;
-    border-radius: 50%;
-    border: rgba(250, 255, 255, .6);
+    width: 50%;
+    height: 94.7%;
     background-color: white;
-    border: 1px solid #ddd;
     transition: .5s all;
-    opacity: .7;
-  }
-
-  .left_button:hover, .right_button:hover {
-    opacity: .5;
-    transform: scale(.95);
+    opacity: 0;
   }
 
   .left_button {
-    left: 24px;
+    left: 0;
   }
 
   .right_button {
-    right: 24px;
+    right: 0;
   }
 
   &_description {
     margin-top: 40px;
     display: flex;
     justify-content: space-between;
+  }
+}
+
+@media (max-width: 1060px) {
+  .carousel_description {
+    p:nth-child(2) {
+      display: none;
+    }
   }
 }

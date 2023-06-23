@@ -1,8 +1,8 @@
 import React from "react";
 import Carousel from "../../Carousel/Carousel";
 import styles from './Anniversary.module.scss';
-import {anniversarySlides} from "./AnniversaryData";
-import {anniversaryDescription} from "./AnniversaryData";
+import {anniversarySlides, anniversaryDescription} from "./AnniversaryData";
+
 
 function Anniversary() {
 
