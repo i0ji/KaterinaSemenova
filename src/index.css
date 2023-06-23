@@ -52,6 +52,17 @@ table {
   font-style: normal;
   font-weight: 400;
 }
+body {
+  font-family: Century-gothic, sans-serif;
+  line-height: 27px;
+  font-size: 22px;
+}
+
+@media (max-width: 390px) {
+  body {
+    font-size: 16px;
+  }
+}
 ::-webkit-scrollbar {
   width: 0;
 }
@@ -63,9 +74,6 @@ html {
 body {
   max-width: 1840px;
   margin: 0 auto;
-  font-family: Century-gothic, sans-serif;
-  line-height: 27px;
-  font-size: 22px;
 }
 
 /*# sourceMappingURL=index.css.map */

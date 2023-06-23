@@ -38,6 +38,7 @@
   flex-grow: 1;
 }
 .carousel .left_button, .carousel .right_button {
+  cursor: pointer;
   position: absolute;
   z-index: 1;
   top: 50%;
