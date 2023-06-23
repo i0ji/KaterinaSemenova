@@ -2,7 +2,6 @@
   font-family: Century-gothic, sans-serif;
   font-weight: 500;
   display: flex;
-  justify-content: space-between;
   align-items: center;
   height: 45px;
   margin-bottom: 40px;
@@ -30,7 +29,7 @@
 }
 .header a:hover:after,
 .header a:focus:after {
-  width: 50%;
+  width: 80%;
 }
 
 /*# sourceMappingURL=Header.module.css.map */

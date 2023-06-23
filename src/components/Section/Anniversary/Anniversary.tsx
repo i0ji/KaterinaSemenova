@@ -7,13 +7,13 @@ import {anniversaryDescription} from "./AnniversaryData";
 function Anniversary() {
 
     return (
-        <div className={styles.section}>
+        <div className={`${styles.section} ${styles.section_margin}`}>
             <Carousel description={anniversaryDescription}>
                 {
                     anniversarySlides.map((item, index) => {
                         return (
                             <div>
-                                <img src={item.img} alt={'Чайка. Фирменный стиль, 2022 г.'}/>
+                                <img src={item.img} alt={'Оформление к 69-летию бассейна'}/>
                             </div>
                         )
                     })
