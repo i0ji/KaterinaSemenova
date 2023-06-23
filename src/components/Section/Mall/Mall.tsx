@@ -1,8 +1,7 @@
 import React from "react";
 import Carousel from "../../Carousel/Carousel";
 import styles from './Mall.module.scss';
-import {mallSlides} from "./MallData";
-import {mallDescription} from "./MallData";
+import {mallSlides, mallDescription} from "./MallData";
 
 function Mall() {
 

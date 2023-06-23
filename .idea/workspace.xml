@@ -1,30 +1,56 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="7005cf98-fb50-495d-8503-e093c84b8493" name="Changes" comment="changing about/contacs width">
+    <list default="true" id="7005cf98-fb50-495d-8503-e093c84b8493" name="Changes" comment="adaptive started; 390 w/o images done">
+      <change afterPath="$PROJECT_DIR$/src/assets/AnniversarySlides/a1_1800.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/assets/AnniversarySlides/a1_390.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/assets/AnniversarySlides/a2_1800.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/assets/AnniversarySlides/a3_1800.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/assets/AnniversarySlides/a4_1800.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/assets/MallSlides/Mall1_390.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/assets/SeagullSlides/s1_1800.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/assets/SeagullSlides/s1_390.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/assets/SeagullSlides/s2_1800.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/assets/SeagullSlides/s3_1800.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/assets/SeagullSlides/s4_1800.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/assets/SeagullSlides/s5_1800.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/assets/SeagullSlides/s6_1800.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/assets/SeagullSlides/s7_1800.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/assets/SeagullSlides/s8_1800.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/components/Header/1000.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/components/Header/500.jpg" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/public/index.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/Footer/Footer.module.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/Footer/Footer.module.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/Footer/Footer.module.css.map" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/Footer/Footer.module.css.map" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/Footer/Footer.module.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/Footer/Footer.module.scss" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/Footer/Footer.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/Footer/Footer.tsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/Header/Header.module.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/Header/Header.module.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/Header/Header.module.css.map" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/Header/Header.module.css.map" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/Header/Header.module.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/Header/Header.module.scss" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/Section/Anniversary/Anniversary.module.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/Section/Anniversary/Anniversary.module.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/Section/Anniversary/Anniversary.module.css.map" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/Section/Anniversary/Anniversary.module.css.map" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/Section/Anniversary/Anniversary.module.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/Section/Anniversary/Anniversary.module.scss" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/Section/Mall/Mall.module.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/Section/Mall/Mall.module.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/Section/Mall/Mall.module.css.map" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/Section/Mall/Mall.module.css.map" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/Section/Mall/Mall.module.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/Section/Mall/Mall.module.scss" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/Section/Seagull/Seagull.module.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/Section/Seagull/Seagull.module.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/Section/Seagull/Seagull.module.css.map" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/Section/Seagull/Seagull.module.css.map" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/Section/Seagull/Seagull.module.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/Section/Seagull/Seagull.module.scss" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/index.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/index.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/index.css.map" beforeDir="false" afterPath="$PROJECT_DIR$/src/index.css.map" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/index.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/index.scss" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/styles/_font.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/styles/_font.scss" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/styles/_section.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/styles/_section.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/assets/AnniversarySlides/dr1.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/assets/AnniversarySlides/dr2.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/assets/AnniversarySlides/dr3.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/assets/AnniversarySlides/dr4.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/assets/MallSlides/mall1.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/assets/MallSlides/mall2.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/assets/MallSlides/mall3.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/assets/MallSlides/mall4.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/assets/MallSlides/mall5.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/assets/MallSlides/mall6.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/assets/MallSlides/mall7.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/assets/MallSlides/mall8.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/assets/SeagullSlides/Chayka1.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/assets/SeagullSlides/Chayka2.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/assets/SeagullSlides/Chayka3.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/assets/SeagullSlides/Chayka4.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/assets/SeagullSlides/Chayka5.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/assets/SeagullSlides/Chayka6.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/assets/SeagullSlides/Chayka7.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/assets/SeagullSlides/Chayka8.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/Carousel/Carousel.module.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/Carousel/Carousel.module.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/Carousel/Carousel.module.css.map" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/Carousel/Carousel.module.css.map" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/Carousel/Carousel.module.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/Carousel/Carousel.module.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/Carousel/Carousel.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/Carousel/Carousel.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/Header/Header.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/Header/Header.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/Section/Anniversary/Anniversary.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/Section/Anniversary/Anniversary.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/Section/Anniversary/AnniversaryData.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/Section/Anniversary/AnniversaryData.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/Section/Mall/Mall.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/Section/Mall/Mall.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/Section/Mall/MallData.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/Section/Mall/MallData.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/Section/Seagull/Seagull.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/Section/Seagull/Seagull.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/Section/Seagull/SeagullData.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/Section/Seagull/SeagullData.tsx" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -159,7 +185,14 @@
       <option name="project" value="LOCAL" />
       <updated>1687541069874</updated>
     </task>
-    <option name="localTasksCounter" value="10" />
+    <task id="LOCAL-00010" summary="adaptive started; 390 w/o images done">
+      <created>1687548624290</created>
+      <option name="number" value="00010" />
+      <option name="presentableId" value="LOCAL-00010" />
+      <option name="project" value="LOCAL" />
+      <updated>1687548624290</updated>
+    </task>
+    <option name="localTasksCounter" value="11" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -204,6 +237,7 @@
     <MESSAGE value="[]" />
     <MESSAGE value="refactoring style components; setting margin; refactoring node_modules;" />
     <MESSAGE value="changing about/contacs width" />
-    <option name="LAST_COMMIT_MESSAGE" value="changing about/contacs width" />
+    <MESSAGE value="adaptive started; 390 w/o images done" />
+    <option name="LAST_COMMIT_MESSAGE" value="adaptive started; 390 w/o images done" />
   </component>
 </project>
