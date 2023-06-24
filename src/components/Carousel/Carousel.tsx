@@ -34,7 +34,7 @@ function Carousel(props: any) {
 
                 {
                     currentIndex > 0 &&
-                    <button onClick={prev} className={styles.left_button}>&lt;</button>
+                    <button onClick={prev} className={styles.left_button}></button>
                 }
 
                 <div className={styles.carousel_content_wrapper}>
@@ -55,7 +55,7 @@ function Carousel(props: any) {
 
                 {
                     currentIndex < (length - 1) &&
-                    <button onClick={next} className={styles.right_button}>&gt;</button>
+                    <button onClick={next} className={styles.right_button}></button>
                 }
             </div>
 
