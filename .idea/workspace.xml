@@ -1,56 +1,12 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="7005cf98-fb50-495d-8503-e093c84b8493" name="Changes" comment="adaptive started; 390 w/o images done">
-      <change afterPath="$PROJECT_DIR$/src/assets/AnniversarySlides/a1_1800.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/assets/AnniversarySlides/a1_390.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/assets/AnniversarySlides/a2_1800.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/assets/AnniversarySlides/a3_1800.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/assets/AnniversarySlides/a4_1800.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/assets/MallSlides/Mall1_390.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/assets/SeagullSlides/s1_1800.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/assets/SeagullSlides/s1_390.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/assets/SeagullSlides/s2_1800.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/assets/SeagullSlides/s3_1800.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/assets/SeagullSlides/s4_1800.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/assets/SeagullSlides/s5_1800.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/assets/SeagullSlides/s6_1800.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/assets/SeagullSlides/s7_1800.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/assets/SeagullSlides/s8_1800.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/components/Header/1000.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/components/Header/500.jpg" afterDir="false" />
+    <list default="true" id="7005cf98-fb50-495d-8503-e093c84b8493" name="Changes" comment="button refactoring done/managed imgs names">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/assets/AnniversarySlides/dr1.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/assets/AnniversarySlides/dr2.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/assets/AnniversarySlides/dr3.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/assets/AnniversarySlides/dr4.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/assets/MallSlides/mall1.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/assets/MallSlides/mall2.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/assets/MallSlides/mall3.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/assets/MallSlides/mall4.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/assets/MallSlides/mall5.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/assets/MallSlides/mall6.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/assets/MallSlides/mall7.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/assets/MallSlides/mall8.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/assets/SeagullSlides/Chayka1.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/assets/SeagullSlides/Chayka2.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/assets/SeagullSlides/Chayka3.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/assets/SeagullSlides/Chayka4.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/assets/SeagullSlides/Chayka5.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/assets/SeagullSlides/Chayka6.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/assets/SeagullSlides/Chayka7.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/assets/SeagullSlides/Chayka8.png" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/src/components/Carousel/Carousel.module.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/Carousel/Carousel.module.css" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/components/Carousel/Carousel.module.css.map" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/Carousel/Carousel.module.css.map" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/components/Carousel/Carousel.module.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/Carousel/Carousel.module.scss" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/components/Carousel/Carousel.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/Carousel/Carousel.tsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/Header/Header.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/Header/Header.tsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/Section/Anniversary/Anniversary.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/Section/Anniversary/Anniversary.tsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/Section/Anniversary/AnniversaryData.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/Section/Anniversary/AnniversaryData.tsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/Section/Mall/Mall.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/Section/Mall/Mall.tsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/Section/Mall/MallData.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/Section/Mall/MallData.tsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/Section/Seagull/Seagull.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/Section/Seagull/Seagull.tsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/Section/Seagull/SeagullData.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/Section/Seagull/SeagullData.tsx" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -121,6 +77,7 @@
       <workItem from="1687427597891" duration="4306000" />
       <workItem from="1687435560676" duration="2179000" />
       <workItem from="1687446305123" duration="5892000" />
+      <workItem from="1687599670019" duration="2199000" />
     </task>
     <task id="LOCAL-00001" summary="index.html name changed;&#10;smooth scroll added;">
       <created>1687429412079</created>
@@ -192,7 +149,21 @@
       <option name="project" value="LOCAL" />
       <updated>1687548624290</updated>
     </task>
-    <option name="localTasksCounter" value="11" />
+    <task id="LOCAL-00011" summary="button refactoring done/managed imgs names">
+      <created>1687558755850</created>
+      <option name="number" value="00011" />
+      <option name="presentableId" value="LOCAL-00011" />
+      <option name="project" value="LOCAL" />
+      <updated>1687558755850</updated>
+    </task>
+    <task id="LOCAL-00012" summary="button refactoring done/managed imgs names">
+      <created>1687558789463</created>
+      <option name="number" value="00012" />
+      <option name="presentableId" value="LOCAL-00012" />
+      <option name="project" value="LOCAL" />
+      <updated>1687558789463</updated>
+    </task>
+    <option name="localTasksCounter" value="13" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -238,6 +209,7 @@
     <MESSAGE value="refactoring style components; setting margin; refactoring node_modules;" />
     <MESSAGE value="changing about/contacs width" />
     <MESSAGE value="adaptive started; 390 w/o images done" />
-    <option name="LAST_COMMIT_MESSAGE" value="adaptive started; 390 w/o images done" />
+    <MESSAGE value="button refactoring done/managed imgs names" />
+    <option name="LAST_COMMIT_MESSAGE" value="button refactoring done/managed imgs names" />
   </component>
 </project>
