@@ -43,7 +43,6 @@ function Carousel(props: any) {
                          style={{transform: `translateX(-${currentIndex * 100}%)`}}
                     >
                         {children}
-
                     </div>
 
                     <div className={styles.carousel_description}>

@@ -7,9 +7,12 @@
   width: 100%;
 }
 
-@media (max-width: 390px) {
+@media (max-width: 389px) {
   .section {
     margin: 0 15px 30px 15px;
+    width: 90%;
+  }
+  .section img {
     width: 100%;
   }
 }
