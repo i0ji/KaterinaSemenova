@@ -15,8 +15,8 @@ function App() {
         <div>
             <Header/>
             <Seagull/>
-            <Anniversary/>
-            <Mall/>
+            {/*<Anniversary/>*/}
+            {/*<Mall/>*/}
             <Footer/>
         </div>
     )

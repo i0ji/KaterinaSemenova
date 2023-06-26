@@ -1,1 +1,1 @@
-{"version":3,"sourceRoot":"","sources":["../../../styles/_section.scss","Mall.module.scss"],"names":[],"mappings":"AAEE;EACE;EACA;;AAEA;EACE;EACA;;;AAKN;EACE;IACE;IACA;;EAEH;IACE;;;ACjBH;EACE;;;AAGF;EACE;IACE","file":"Mall.module.css"}
+{"version":3,"sourceRoot":"","sources":["../../../styles/_section.scss","Mall.module.scss"],"names":[],"mappings":"AAEE;EACE;EACA;;AAEA;EACE;EACA;;;AAKN;EACE;IACE;IACA;;EAEA;IACE;;;ACjBN;EACE;;;AAGF;EACE;IACE","file":"Mall.module.css"}

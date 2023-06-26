@@ -44,19 +44,16 @@ function Carousel(props: any) {
 
                 <div className={styles.carousel_content_wrapper}>
 
-
                     <div className={styles.carousel_content}
                          style={{transform: `translateX(-${currentIndex * 100}%)`}}
                     >
                         {children}
                     </div>
 
-
                     <div className={styles.carousel_description}>
                         <p>{props.description}</p>
                         <p>{`${currentIndex + 1} / ${length}`}</p>
                     </div>
-
                 </div>
 
                 {

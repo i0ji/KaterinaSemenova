@@ -27,10 +27,12 @@
   flex-shrink: 0;
   flex-grow: 1;
 }
+.carousel_content > * img {
+  height: 100%;
+}
 .carousel .left_button, .carousel .right_button {
   padding: 0;
   margin: 0;
-  border: none;
   position: absolute;
   z-index: 1;
   width: 50%;
@@ -38,6 +40,7 @@
   background-color: transparent;
   transition: 0.5s all;
   opacity: 0;
+  border: 1px solid black;
 }
 .carousel .right_button:hover {
   opacity: 0.5;
@@ -59,21 +62,10 @@
   justify-content: space-between;
 }
 
-@media (max-width: 700px) {
-  .carousel {
+@media (max-width: 1860px) {
+  .carousel_content img {
+    height: 100%;
     width: 100%;
-    margin: 0;
-  }
-  .carousel .left_button {
-    left: 0;
-    top: 0;
-  }
-  .carousel .right_button {
-    top: 0;
-    right: 0;
-  }
-  .carousel_description p:nth-child(2) {
-    display: none;
   }
 }
 
