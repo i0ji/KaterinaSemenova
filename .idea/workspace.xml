@@ -1,25 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="7005cf98-fb50-495d-8503-e093c84b8493" name="Changes" comment="small touches;&#10;some query attempts;&#10;refactoring adaptive">
-      <change beforePath="$PROJECT_DIR$/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/Carousel/Carousel.module.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/Carousel/Carousel.module.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/Carousel/Carousel.module.css.map" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/Carousel/Carousel.module.css.map" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/Carousel/Carousel.module.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/Carousel/Carousel.module.scss" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/Carousel/Carousel.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/Carousel/Carousel.tsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/Header/Header.module.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/Header/Header.module.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/Header/Header.module.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/Header/Header.module.scss" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/Section/Seagull/Seagull.module.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/Section/Seagull/Seagull.module.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/Section/Seagull/Seagull.module.css.map" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/Section/Seagull/Seagull.module.css.map" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/Section/Seagull/Seagull.module.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/Section/Seagull/Seagull.module.scss" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/Section/Seagull/SeagullData.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/Section/Seagull/SeagullData.tsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/index.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/index.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/index.css.map" beforeDir="false" afterPath="$PROJECT_DIR$/src/index.css.map" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/index.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/index.scss" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/styles/_font.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/styles/_font.scss" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/styles/_reset.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/styles/_reset.scss" afterDir="false" />
-    </list>
+    <list default="true" id="7005cf98-fb50-495d-8503-e093c84b8493" name="Changes" comment="adaptive attempts; refactoring; back first option" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -96,7 +78,7 @@
       <workItem from="1687640283821" duration="5494000" />
       <workItem from="1687683677653" duration="9402000" />
       <workItem from="1687771400407" duration="2486000" />
-      <workItem from="1687780796765" duration="2032000" />
+      <workItem from="1687780796765" duration="2763000" />
     </task>
     <task id="LOCAL-00001" summary="index.html name changed;&#10;smooth scroll added;">
       <created>1687429412079</created>
@@ -203,7 +185,21 @@
       <option name="project" value="LOCAL" />
       <updated>1687696144366</updated>
     </task>
-    <option name="localTasksCounter" value="16" />
+    <task id="LOCAL-00016" summary="adaptive attempts; refactoring; back first option">
+      <created>1687784382494</created>
+      <option name="number" value="00016" />
+      <option name="presentableId" value="LOCAL-00016" />
+      <option name="project" value="LOCAL" />
+      <updated>1687784382494</updated>
+    </task>
+    <task id="LOCAL-00017" summary="adaptive attempts; refactoring; back first option">
+      <created>1687784430311</created>
+      <option name="number" value="00017" />
+      <option name="presentableId" value="LOCAL-00017" />
+      <option name="project" value="LOCAL" />
+      <updated>1687784430311</updated>
+    </task>
+    <option name="localTasksCounter" value="18" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -252,6 +248,7 @@
     <MESSAGE value="button refactoring done/managed imgs names" />
     <MESSAGE value="preparing for GH-pages; small touches" />
     <MESSAGE value="small touches;&#10;some query attempts;&#10;refactoring adaptive" />
-    <option name="LAST_COMMIT_MESSAGE" value="small touches;&#10;some query attempts;&#10;refactoring adaptive" />
+    <MESSAGE value="adaptive attempts; refactoring; back first option" />
+    <option name="LAST_COMMIT_MESSAGE" value="adaptive attempts; refactoring; back first option" />
   </component>
 </project>
