@@ -1,11 +1,7 @@
 {
   "compilerOptions": {
-    "baseUrl": "./src",
-    "paths": {
-      "@components": ["./components/*"],
-      "@assets": ["./assets/*"]
-    },
     "target": "es5",
+    "homepage": "./",
     "lib": [
       "dom",
       "dom.iterable",
