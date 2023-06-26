@@ -7,9 +7,17 @@
 
 html {
   scroll-behavior: smooth;
+  display: flex;
+  justify-content: center;
 }
 
 body {
   max-width: 1840px;
   margin: 0 auto;
+}
+
+@media (max-width: 1800px) {
+  body {
+    margin: 0 15px;
+  }
 }

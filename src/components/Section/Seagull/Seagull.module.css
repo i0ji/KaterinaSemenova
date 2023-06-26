@@ -7,9 +7,12 @@
   width: 100%;
 }
 
-@media (max-width: 390px) {
+@media (max-width: 389px) {
   .section {
     margin: 0 15px 30px 15px;
+    width: 90%;
+  }
+  .section img {
     width: 100%;
   }
 }
@@ -17,9 +20,12 @@
   margin-bottom: 80px;
 }
 
-@media (max-width: 390px) {
-  .section_margin {
-    margin-bottom: 30px;
+@media (max-width: 700px) {
+  .section {
+    margin: 0;
+  }
+  .section img {
+    width: 90%;
   }
 }
 

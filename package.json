@@ -2,7 +2,7 @@
   "name": "semenova",
   "version": "0.1.0",
   "private": true,
-  "homepage": ".",
+  "homepage": "https://i0ji.github.io/KaterinaSemenova",
   "dependencies": {
     "@testing-library/jest-dom": "^5.16.5",
     "@testing-library/react": "^13.4.0",
@@ -24,7 +24,8 @@
     "test": "react-scripts test",
     "eject": "react-scripts eject",
     "predeploy": "npm run build",
-    "deploy": "gh-pages -d build"
+    "deploy": "gh-pages -d build",
+    "ghClear": "gh-pages-clean gh-pages -d build"
   },
   "eslintConfig": {
     "extends": [
@@ -45,6 +46,7 @@
     ]
   },
   "devDependencies": {
-    "gh-pages": "^5.0.0"
+    "gh-pages": "^5.0.0",
+    "react-responsive": "^9.0.2"
   }
 }

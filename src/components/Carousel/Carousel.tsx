@@ -3,6 +3,11 @@ import styles from './Carousel.module.scss'
 
 function Carousel(props: any) {
 
+    const el = React.createRef();
+    const [height, setH] = useState();
+
+    //useEffect(() => setH(el.current.style.height));
+
     const {children} = props
     const [currentIndex, setCurrentIndex] = useState(0);
     const [length, setLength] = useState(children.length);
@@ -39,12 +44,13 @@ function Carousel(props: any) {
 
                 <div className={styles.carousel_content_wrapper}>
 
+
                     <div className={styles.carousel_content}
                          style={{transform: `translateX(-${currentIndex * 100}%)`}}
                     >
                         {children}
-
                     </div>
+
 
                     <div className={styles.carousel_description}>
                         <p>{props.description}</p>
@@ -57,6 +63,7 @@ function Carousel(props: any) {
                     currentIndex < (length - 1) &&
                     <button onClick={next} className={styles.right_button}></button>
                 }
+
             </div>
 
         </div>
