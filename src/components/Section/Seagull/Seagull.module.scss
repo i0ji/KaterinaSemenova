@@ -4,10 +4,12 @@
   margin-bottom: 80px;
 }
 
-@media (max-width: 390px) {
-  .section_margin {
-    margin-bottom: 30px;
+@media (max-width: 700px) {
+  .section {
+    margin: 0;
+
+    img {
+      width: 90%;
+    }
   }
 }
-
-

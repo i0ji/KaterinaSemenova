@@ -59,7 +59,19 @@
   justify-content: space-between;
 }
 
-@media (max-width: 1060px) {
+@media (max-width: 700px) {
+  .carousel {
+    width: 100%;
+    margin: 0;
+  }
+  .carousel .left_button {
+    left: 0;
+    top: 0;
+  }
+  .carousel .right_button {
+    top: 0;
+    right: 0;
+  }
   .carousel_description p:nth-child(2) {
     display: none;
   }
