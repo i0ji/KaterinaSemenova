@@ -1,1 +1,1 @@
-{"version":3,"sourceRoot":"","sources":["../../../styles/_section.scss","Seagull.module.scss"],"names":[],"mappings":"AAEE;EACE;EACA;;AAEA;EACE;EACA;;;AAKN;EACE;IACE;IACA;;EAEH;IACE;;;ACjBH;EACE;;;AAGF;EACE;IACE","file":"Seagull.module.css"}
+{"version":3,"sourceRoot":"","sources":["../../../styles/_section.scss","Seagull.module.scss"],"names":[],"mappings":"AAEE;EACE;EACA;;AAEA;EACE;EACA;;;AAKN;EACE;IACE;IACA;;EAEH;IACE;;;ACjBH;EACE;;;AAGF;EACE;IACE;;EAEA;IACE","file":"Seagull.module.css"}

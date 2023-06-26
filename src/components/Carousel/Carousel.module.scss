@@ -70,10 +70,26 @@
   }
 }
 
-@media (max-width: 1060px) {
-  .carousel_description {
-    p:nth-child(2) {
-      display: none;
+@media (max-width: 700px) {
+  .carousel {
+    width: 100%;
+    margin: 0;
+
+
+    .left_button {
+      left: 0;
+      top: 0;
+      }
+
+    .right_button {
+      top: 0;
+      right: 0;
+    }
+
+    &_description {
+      p:nth-child(2) {
+        display: none;
+      }
     }
   }
 }
