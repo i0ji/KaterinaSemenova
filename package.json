@@ -47,6 +47,7 @@
   },
   "devDependencies": {
     "gh-pages": "^5.0.0",
-    "react-responsive": "^9.0.2"
+    "react-responsive": "^9.0.2",
+    "react-responsive-carousel": "^3.2.23"
   }
 }
