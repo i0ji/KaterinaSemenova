@@ -1,27 +1,12 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="7005cf98-fb50-495d-8503-e093c84b8493" name="Changes" comment="new carousel module added; responsive-carousel npm isntalled; new carousel attempt">
+    <list default="true" id="7005cf98-fb50-495d-8503-e093c84b8493" name="Changes" comment="second version of adaptive done; small touches require&#10;arrows above buttons/dots etc;">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/App.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/App.tsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/Carousel/Carousel.module.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/Carousel/Carousel.module.css.map" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/Carousel/Carousel.module.scss" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/Carousel/Carousel.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/styles/_buttonStyles.scss" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/components/Section/Anniversary/Anniversary.module.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/Section/Anniversary/Anniversary.module.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/Section/Anniversary/Anniversary.module.css.map" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/Section/Anniversary/Anniversary.module.css.map" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/Section/Anniversary/Anniversary.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/Section/Anniversary/Anniversary.tsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/Section/Anniversary/AnniversaryData.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/Section/Anniversary/AnniversaryData.tsx" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/components/Section/Mall/Mall.module.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/Section/Mall/Mall.module.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/Section/Mall/Mall.module.css.map" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/Section/Mall/Mall.module.css.map" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/Section/Mall/Mall.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/Section/Mall/Mall.tsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/Section/Mall/MallData.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/Section/Mall/MallData.tsx" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/components/Section/Seagull/Seagull.module.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/Section/Seagull/Seagull.module.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/Section/Seagull/Seagull.module.css.map" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/Section/Seagull/Seagull.module.css.map" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/Section/Seagull/Seagull.module.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/Section/Seagull/Seagull.module.scss" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/Section/Seagull/Seagull.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/Section/Seagull/Seagull.tsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/Section/Seagull/SeagullData.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/Section/Seagull/SeagullData.tsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/styles/_section.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/styles/_section.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/index.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/index.css" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -109,7 +94,7 @@
       <workItem from="1687780796765" duration="6449000" />
       <workItem from="1687812875334" duration="2116000" />
       <workItem from="1687815484268" duration="1262000" />
-      <workItem from="1687864530331" duration="10151000" />
+      <workItem from="1687864530331" duration="11039000" />
     </task>
     <task id="LOCAL-00001" summary="index.html name changed;&#10;smooth scroll added;">
       <created>1687429412079</created>
@@ -265,7 +250,14 @@
       <option name="project" value="LOCAL" />
       <updated>1687867573051</updated>
     </task>
-    <option name="localTasksCounter" value="23" />
+    <task id="LOCAL-00023" summary="second version of adaptive done; small touches require&#10;arrows above buttons/dots etc;">
+      <created>1687877683462</created>
+      <option name="number" value="00023" />
+      <option name="presentableId" value="LOCAL-00023" />
+      <option name="project" value="LOCAL" />
+      <updated>1687877683462</updated>
+    </task>
+    <option name="localTasksCounter" value="24" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -312,6 +304,7 @@
     <MESSAGE value="adaptive attempts; refactoring; back first option" />
     <MESSAGE value="tag" />
     <MESSAGE value="new carousel module added; responsive-carousel npm isntalled; new carousel attempt" />
-    <option name="LAST_COMMIT_MESSAGE" value="new carousel module added; responsive-carousel npm isntalled; new carousel attempt" />
+    <MESSAGE value="second version of adaptive done; small touches require&#10;arrows above buttons/dots etc;" />
+    <option name="LAST_COMMIT_MESSAGE" value="second version of adaptive done; small touches require&#10;arrows above buttons/dots etc;" />
   </component>
 </project>
