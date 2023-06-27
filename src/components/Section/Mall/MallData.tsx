@@ -7,7 +7,7 @@ import mall6 from '../../../assets/MallSlides/m6_1800.png';
 import mall7 from '../../../assets/MallSlides/m7_1800.png';
 import mall8 from '../../../assets/MallSlides/m8_1800.png';
 
-export const mallSlides = [
+export const slides = [
     {img: mall1},
     {img: mall2},
     {img: mall3},

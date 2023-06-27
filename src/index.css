@@ -82,9 +82,10 @@ body {
   margin: 0 auto;
 }
 
-@media (max-width: 1800px) {
+@media (max-width: 1839px) {
   body {
-    margin: 0 15px;
+    width: 95%;
+    margin: 0 auto;
   }
 }
 

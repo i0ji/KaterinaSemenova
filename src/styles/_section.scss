@@ -1,24 +1,8 @@
 .section {
+  margin-bottom: 80px;
 
-  &_image {
+  .section_description {
     display: flex;
-    justify-content: center;
-
-    img {
-      max-height: 1200px;
-      width: 100%;
-    }
-  }
-}
-
-@media (max-width: 389px) {
-  .section {
-    margin: 0 15px 30px 15px;
-    width: 90%;
-
- img {
-   width: 100%;
- }
-
+    justify-content: space-between;
   }
 }
