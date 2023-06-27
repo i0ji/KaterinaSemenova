@@ -1,21 +1,11 @@
-.section_image {
-  display: flex;
-  justify-content: center;
+.section {
+  margin-bottom: 80px;
 }
-.section_image img {
-  max-height: 1200px;
-  width: 100%;
+.section .section_description {
+  display: flex;
+  justify-content: space-between;
 }
 
-@media (max-width: 389px) {
-  .section {
-    margin: 0 15px 30px 15px;
-    width: 90%;
-  }
-  .section img {
-    width: 100%;
-  }
-}
 .section_margin {
   margin-bottom: 40px;
 }

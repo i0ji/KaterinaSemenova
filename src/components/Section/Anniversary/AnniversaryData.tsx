@@ -3,7 +3,7 @@ import anniversary_slide2 from '../../../assets/AnniversarySlides/a2_1800.png';
 import anniversary_slide3 from '../../../assets/AnniversarySlides/a3_1800.png';
 import anniversary_slide4 from '../../../assets/AnniversarySlides/a4_1800.png';
 
-export const anniversarySlides = [
+export const slides = [
     {img: anniversary_slide1},
     {img: anniversary_slide2},
     {img: anniversary_slide3},

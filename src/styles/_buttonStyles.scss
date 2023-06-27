@@ -1,28 +1,21 @@
-.section {
-  margin-bottom: 80px;
-}
-.section .section_description {
-  display: flex;
-  justify-content: space-between;
-}
-
 .carousel.carousel-slider {
   overflow: inherit;
+  margin-bottom: 30px;
 }
 
-.carousel .control-next.control-arrow, .carousel .control-next.control-arrow:hover {
-  opacity: 0.5;
+.carousel .control-next.control-arrow, .carousel .control-next.control-arrow:hover{
+  opacity: .5;
   background: linear-gradient(90deg, transparent, black) transparent;
   right: 0;
 }
 
 .carousel .control-prev.control-arrow, .carousel .control-prev.control-arrow:hover {
-  opacity: 0.5;
+  opacity: .5;
   background: linear-gradient(-90deg, transparent, black) transparent;
   left: 0;
 }
 
-.carousel .control-arrow, .carousel.carousel-slider .control-arrow {
+.carousel .control-arrow, .carousel.carousel-slider .control-arrow{
   padding: 0;
   margin: 0;
   border: none;
@@ -31,8 +24,6 @@
   width: 50%;
   height: 100%;
   background-color: transparent;
-  transition: 0.5s all;
+  transition: .5s all;
   opacity: 0;
 }
-
-/*# sourceMappingURL=Seagull.module.css.map */
