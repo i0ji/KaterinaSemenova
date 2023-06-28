@@ -28,26 +28,18 @@
   box-shadow: 1px 1px 1px rgba(250, 250, 250, 0.5);
 }
 
-@media (max-width: 390px) {
-  .footer__about {
-    margin: 30px 15px;
-  }
-  .footer__about div:nth-child(1) {
+@media (max-width: 1200px) {
+  .footer .footer__about div:nth-child(1) {
     display: none;
   }
-  .footer__about div:nth-child(2) {
-    text-align: left;
-    width: 98%;
+  .footer .footer__about div:nth-child(2) {
+    width: 100%;
   }
-  .footer__contacts {
-    margin: 30px 15px;
-  }
-  .footer__contacts div:nth-child(1) {
+  .footer .footer__contacts div:nth-child(1) {
     display: none;
   }
-  .footer__contacts div:nth-child(2) {
-    text-align: left;
-    width: 96%;
+  .footer .footer__contacts div:nth-child(2) {
+    width: 100%;
   }
 }
 

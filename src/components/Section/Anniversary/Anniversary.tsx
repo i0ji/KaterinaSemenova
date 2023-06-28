@@ -3,7 +3,7 @@ import "react-responsive-carousel/lib/styles/carousel.min.css";
 import {Carousel} from "react-responsive-carousel";
 import styles from './Anniversary.module.scss';
 import {slides, anniversaryDescription} from './AnniversaryData';
-import '../../../styles/_buttonStyles.scss'
+import '../../../styles/_carouselStyles.scss'
 
 const renderSlides = slides.map((image) => (
     <div>
@@ -30,13 +30,14 @@ function Anniversary() {
                 showStatus={false}
                 infiniteLoop={true}
                 onChange={handleChange}
+                showIndicators={false}
                 className={styles.CarouselStyles}
+                swipeable={true}
             >
 
                 {renderSlides}
 
             </Carousel>
-
 
             <div className={styles.section_description}>
                 <p>{anniversaryDescription}</p>

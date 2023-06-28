@@ -3,7 +3,7 @@ import "react-responsive-carousel/lib/styles/carousel.min.css";
 import {Carousel} from "react-responsive-carousel";
 import styles from './Mall.module.scss';
 import {slides, mallDescription} from './MallData';
-import '../../../styles/_buttonStyles.scss'
+import '../../../styles/_carouselStyles.scss'
 
 
 const renderSlides = slides.map((image) => (
@@ -32,6 +32,7 @@ function Mall() {
                 showStatus={false}
                 infiniteLoop={true}
                 onChange={handleChange}
+                showIndicators={false}
                 className={styles.CarouselStyles}
             >
 
