@@ -1,9 +1,10 @@
-import React, {useState} from "react";
+import React from "react";
 import "react-responsive-carousel/lib/styles/carousel.min.css";
-import {Carousel} from "react-responsive-carousel";
 import styles from './Seagull.module.scss';
 import {slides, seagullDescription} from './SeagullData';
 import '../../../styles/_carouselStyles.scss'
+import SlideCarousel from "../../Carousel/Carousel";
+
 
 const renderSlides = slides.map((image) => (
     <div>
@@ -12,37 +13,15 @@ const renderSlides = slides.map((image) => (
 ));
 
 function Seagull() {
-    const [currentIndex, setCurrentIndex] = useState(0);
-
-    function handleChange(index: any) {
-        setCurrentIndex(index);
-    }
-
     return (
         <div className={`${styles.section} ${styles.section_margin}`}>
 
-
-            <Carousel
-                showArrows={false}
-                autoPlay={true}
-                interval={5000}
-                showThumbs={false}
-                showStatus={false}
-                infiniteLoop={true}
-                onChange={handleChange}
-                showIndicators={false}
-            >
-
-                {renderSlides}
-
-            </Carousel>
-
+            <SlideCarousel render={renderSlides}/>
 
             <div className={styles.section_description}>
                 <p>{seagullDescription}</p>
 
-                <p>{`${currentIndex + 1}
-                / ${slides.length}`}</p>
+                <p>{`${slides.length}`}</p>
             </div>
         </div>
     )

@@ -1,17 +1,11 @@
 .carousel.carousel-slider {
   overflow: inherit;
-  margin-bottom: 30px;
 }
 
 .carousel .control-next.control-arrow, .carousel .control-next.control-arrow:hover{
   opacity: .5;
   background: linear-gradient(90deg, transparent, black) transparent;
   right: 0;
-}
-
-.carousel .control-next.control-arrow:before, .carousel .control-prev.control-arrow:before {
-  content: none;
-  border-left: 8px solid #fff;
 }
 
 .carousel .control-prev.control-arrow, .carousel .control-prev.control-arrow:hover {
