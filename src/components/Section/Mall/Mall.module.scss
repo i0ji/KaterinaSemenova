@@ -1,11 +1,5 @@
 @import '../../../styles/section';
 
 .section_margin {
-  margin-bottom: 40px;
-}
-
-@media (max-width: 390px) {
-  .section_margin {
-    margin-bottom: 30px;
-  }
+  margin-bottom: 30px;
 }

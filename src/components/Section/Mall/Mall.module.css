@@ -11,14 +11,18 @@
     display: none;
   }
 }
-.section_margin {
-  margin-bottom: 40px;
+@media (max-width: 700px) {
+  .section_margin {
+    margin-bottom: 60px;
+  }
 }
-
 @media (max-width: 390px) {
   .section_margin {
     margin-bottom: 30px;
   }
+}
+.section_margin {
+  margin-bottom: 30px;
 }
 
 /*# sourceMappingURL=Mall.module.css.map */
