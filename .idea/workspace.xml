@@ -1,21 +1,20 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="7005cf98-fb50-495d-8503-e093c84b8493" name="Changes" comment="all sections are brought to the Seagull point;">
+    <list default="true" id="7005cf98-fb50-495d-8503-e093c84b8493" name="Changes" comment="small content touches;&#10;slide number settings;&#10;footer margin and text breaks set;">
+      <change afterPath="$PROJECT_DIR$/src/components/Carousel/Carousel.module.scss" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/Carousel/Carousel.module.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/Carousel/Carousel.module.css.map" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/Carousel/Carousel.module.scss" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/Section/Anniversary/Anniversary.module.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/Section/Anniversary/Anniversary.module.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/Section/Anniversary/Anniversary.module.css.map" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/Section/Anniversary/Anniversary.module.css.map" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/Section/Anniversary/Anniversary.module.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/Section/Anniversary/Anniversary.module.scss" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/Section/Mall/Mall.module.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/Section/Mall/Mall.module.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/Section/Mall/Mall.module.css.map" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/Section/Mall/Mall.module.css.map" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/Section/Mall/Mall.module.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/Section/Mall/Mall.module.scss" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/Section/Seagull/Seagull.module.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/Section/Seagull/Seagull.module.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/Section/Seagull/Seagull.module.css.map" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/Section/Seagull/Seagull.module.css.map" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/index.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/index.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/styles/_section.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/styles/_section.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/package.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/public/index.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/App.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/App.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/Carousel/Carousel.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/Carousel/Carousel.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/Footer/Footer.module.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/Footer/Footer.module.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/Footer/Footer.module.css.map" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/Footer/Footer.module.css.map" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/Footer/Footer.module.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/Footer/Footer.module.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/Footer/Footer.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/Footer/Footer.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/Section/Anniversary/Anniversary.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/Section/Anniversary/Anniversary.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/Section/Mall/Mall.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/Section/Mall/Mall.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/Section/Seagull/Seagull.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/Section/Seagull/Seagull.tsx" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -58,25 +57,25 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent"><![CDATA[{
-  "keyToString": {
-    "ASKED_ADD_EXTERNAL_FILES": "true",
-    "ASKED_SHARE_PROJECT_CONFIGURATION_FILES": "true",
-    "RunOnceActivity.OpenProjectViewOnStart": "true",
-    "RunOnceActivity.ShowReadmeOnStart": "true",
-    "WebServerToolWindowFactoryState": "false",
-    "last_opened_file_path": "D:/code/semenova/src/components/Section/Anniversary",
-    "list.type.of.created.stylesheet": "SCSS",
-    "node.js.detected.package.eslint": "true",
-    "node.js.detected.package.standard": "true",
-    "node.js.selected.package.eslint": "(autodetect)",
-    "node.js.selected.package.standard": "",
-    "nodejs_package_manager_path": "npm",
-    "run.code.analysis.last.selected.profile": "pProject Default",
-    "ts.external.directory.path": "D:\\code\\semenova\\node_modules\\typescript\\lib",
-    "vue.rearranger.settings.migration": "true"
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;ASKED_ADD_EXTERNAL_FILES&quot;: &quot;true&quot;,
+    &quot;ASKED_SHARE_PROJECT_CONFIGURATION_FILES&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;WebServerToolWindowFactoryState&quot;: &quot;false&quot;,
+    &quot;last_opened_file_path&quot;: &quot;D:/code/semenova/src/components/Section/Anniversary&quot;,
+    &quot;list.type.of.created.stylesheet&quot;: &quot;SCSS&quot;,
+    &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
+    &quot;node.js.detected.package.standard&quot;: &quot;true&quot;,
+    &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
+    &quot;node.js.selected.package.standard&quot;: &quot;&quot;,
+    &quot;nodejs_package_manager_path&quot;: &quot;npm&quot;,
+    &quot;run.code.analysis.last.selected.profile&quot;: &quot;pProject Default&quot;,
+    &quot;ts.external.directory.path&quot;: &quot;D:\\code\\semenova\\node_modules\\typescript\\lib&quot;,
+    &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
   }
-}]]></component>
+}</component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
       <recent name="D:\code\semenova\src\components\Section\Anniversary" />
@@ -113,7 +112,13 @@
       <workItem from="1687890049769" duration="5308000" />
       <workItem from="1687960834140" duration="6019000" />
       <workItem from="1687969288621" duration="3178000" />
-      <workItem from="1687982168049" duration="4245000" />
+      <workItem from="1687982168049" duration="4564000" />
+      <workItem from="1687992376087" duration="1049000" />
+      <workItem from="1688036253475" duration="5907000" />
+      <workItem from="1688044692091" duration="1044000" />
+      <workItem from="1688068644566" duration="254000" />
+      <workItem from="1688117520286" duration="3542000" />
+      <workItem from="1688136556178" duration="742000" />
     </task>
     <task id="LOCAL-00001" summary="index.html name changed;&#10;smooth scroll added;">
       <created>1687429412079</created>
@@ -311,7 +316,14 @@
       <option name="project" value="LOCAL" />
       <updated>1687985739300</updated>
     </task>
-    <option name="localTasksCounter" value="29" />
+    <task id="LOCAL-00029" summary="margin settings">
+      <created>1687986770193</created>
+      <option name="number" value="00029" />
+      <option name="presentableId" value="LOCAL-00029" />
+      <option name="project" value="LOCAL" />
+      <updated>1687986770193</updated>
+    </task>
+    <option name="localTasksCounter" value="30" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -392,6 +404,7 @@
     <MESSAGE value="carousel settings" />
     <MESSAGE value="carousel allocated w/optimisation and adaptive swipe/button slider;&#10;arrows removed;&#10;small style touches" />
     <MESSAGE value="all sections are brought to the Seagull point;" />
-    <option name="LAST_COMMIT_MESSAGE" value="all sections are brought to the Seagull point;" />
+    <MESSAGE value="margin settings" />
+    <option name="LAST_COMMIT_MESSAGE" value="margin settings" />
   </component>
 </project>

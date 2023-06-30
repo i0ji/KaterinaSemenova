@@ -13,16 +13,12 @@ const renderSlides = slides.map((image) => (
 ));
 
 function Anniversary() {
+
     return (
         <div className={`${styles.section} ${styles.section_margin}`}>
 
-            <SlideCarousel render={renderSlides}/>
+            <SlideCarousel renderSlides={renderSlides}/>
 
-            <div className={styles.section_description}>
-                <p>{anniversaryDescription}</p>
-
-                <p>{`${slides.length}`}</p>
-            </div>
         </div>
     )
 }
