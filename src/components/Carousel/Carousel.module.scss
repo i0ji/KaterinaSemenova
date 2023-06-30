@@ -2,3 +2,11 @@
   display: flex;
   justify-content: space-between;
 }
+
+@media (max-width: 850px) {
+  .section_description:nth-child(2) {
+    p:nth-child(2) {
+      display: none;
+    }
+  }
+}
