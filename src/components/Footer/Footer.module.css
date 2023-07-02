@@ -17,7 +17,6 @@
 }
 .footer__contacts {
   margin: 30px 0;
-  height: 177px;
   display: flex;
   flex-direction: row;
   justify-content: space-between;

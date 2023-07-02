@@ -17,7 +17,7 @@ function Anniversary() {
     return (
         <div className={`${styles.section} ${styles.section_margin}`}>
 
-            <SlideCarousel renderSlides={renderSlides}/>
+            <SlideCarousel renderSlides={renderSlides} description={anniversaryDescription}/>
 
         </div>
     )

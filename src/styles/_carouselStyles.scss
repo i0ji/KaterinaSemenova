@@ -4,7 +4,7 @@
 }
 
 .carousel .control-next.control-arrow, .carousel .control-next.control-arrow:hover{
-  opacity: .5;
+  opacity: .3;
   background: linear-gradient(90deg, transparent, black) transparent;
   right: 0;
 }
@@ -15,7 +15,7 @@
 }
 
 .carousel .control-prev.control-arrow, .carousel .control-prev.control-arrow:hover {
-  opacity: .5;
+  opacity: .3;
   background: linear-gradient(-90deg, transparent, black) transparent;
   left: 0;
 }
@@ -26,9 +26,22 @@
   border: none;
   position: absolute;
   z-index: 1;
-  width: 50%;
+  width: 30%;
   height: 100%;
   background-color: transparent;
   transition: .5s all;
   opacity: 0;
+}
+
+.carousel__description {
+  display: flex;
+  justify-content: space-between;
+}
+
+@media (max-width: 1040px) {
+  .carousel__description {
+    p:nth-child(2) {
+      display: none;
+    }
+  }
 }

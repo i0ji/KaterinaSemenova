@@ -16,7 +16,7 @@ function Mall() {
     return (
         <div className={`${styles.section} ${styles.section_margin}`}>
 
-            <SlideCarousel renderSlides={renderSlides}/>
+            <SlideCarousel renderSlides={renderSlides} description={mallDescription}/>
 
         </div>
     )

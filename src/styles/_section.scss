@@ -1,18 +1,5 @@
 .section {
   margin-bottom: 80px;
-
-  .section_description {
-    display: flex;
-    justify-content: space-between;
-  }
-}
-
-@media (max-width: 850px) {
-  .section_description:nth-child(2) {
-    p:nth-child(2) {
-      display: none;
-    }
-  }
 }
 
 @media (max-width: 700px) {

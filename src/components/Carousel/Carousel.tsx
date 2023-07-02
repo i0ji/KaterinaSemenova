@@ -1,9 +1,9 @@
 import React, {useState} from "react";
 import {Carousel} from "react-responsive-carousel";
 import '../../styles/_carouselStyles.scss'
-import styles from './Carousel.module.scss'
 
-function SlideCarousel(props: any, {onChange}: any) {
+
+function SlideCarousel(props: any) {
 
     const [currentIndex, setCurrentIndex] = useState(0);
 
@@ -30,12 +30,13 @@ function SlideCarousel(props: any, {onChange}: any) {
 
     console.log()
 
-    return (<div>
+    return (
+        <div>
             <Carousel
                 {...attributes}
             >{props.renderSlides}
             </Carousel>
-            <div className={styles.section_description}>
+            <div className={'carousel__description'}>
                 <p>{props.description}</p>
                 <p>{`${currentIndex+1} / ${props.renderSlides.length}`}</p>
             </div>
