@@ -1,22 +1,11 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="7005cf98-fb50-495d-8503-e093c84b8493" name="Changes" comment="[TAG]">
+    <list default="true" id="7005cf98-fb50-495d-8503-e093c84b8493" name="Changes" comment="refactoring paths; rebuilding project w/AVIF images;">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/Carousel/Carousel.module.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/Carousel/Carousel.module.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/Carousel/Carousel.module.css.map" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/Carousel/Carousel.module.css.map" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/Carousel/Carousel.module.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/Carousel/Carousel.module.scss" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/Carousel/Carousel.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/Carousel/Carousel.tsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/Footer/Footer.module.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/Footer/Footer.module.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/Footer/Footer.module.css.map" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/Footer/Footer.module.css.map" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/Footer/Footer.module.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/Footer/Footer.module.scss" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/Footer/Footer.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/Footer/Footer.tsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/Section/Anniversary/Anniversary.module.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/Section/Anniversary/Anniversary.module.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/Section/Anniversary/Anniversary.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/Section/Anniversary/Anniversary.tsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/Section/Mall/Mall.module.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/Section/Mall/Mall.module.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/Section/Mall/Mall.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/Section/Mall/Mall.tsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/Section/Seagull/Seagull.module.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/Section/Seagull/Seagull.module.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/styles/_carouselStyles.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/styles/_carouselStyles.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/assets/AnniversarySlides/a4.avif" beforeDir="false" afterPath="$PROJECT_DIR$/src/assets/AnniversarySlides/a4.avif" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/assets/NoraQuizSlides/q5.avif" beforeDir="false" afterPath="$PROJECT_DIR$/src/assets/NoraQuizSlides/q5.avif" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/assets/NoraQuizSlides/q6.avif" beforeDir="false" afterPath="$PROJECT_DIR$/src/assets/NoraQuizSlides/q6.avif" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -59,30 +48,35 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent">{
-  &quot;keyToString&quot;: {
-    &quot;ASKED_ADD_EXTERNAL_FILES&quot;: &quot;true&quot;,
-    &quot;ASKED_SHARE_PROJECT_CONFIGURATION_FILES&quot;: &quot;true&quot;,
-    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
-    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
-    &quot;WebServerToolWindowFactoryState&quot;: &quot;false&quot;,
-    &quot;last_opened_file_path&quot;: &quot;D:/code/semenova/src/components/Section/Anniversary&quot;,
-    &quot;list.type.of.created.stylesheet&quot;: &quot;SCSS&quot;,
-    &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
-    &quot;node.js.detected.package.standard&quot;: &quot;true&quot;,
-    &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
-    &quot;node.js.selected.package.standard&quot;: &quot;&quot;,
-    &quot;nodejs_package_manager_path&quot;: &quot;npm&quot;,
-    &quot;run.code.analysis.last.selected.profile&quot;: &quot;pProject Default&quot;,
-    &quot;ts.external.directory.path&quot;: &quot;D:\\code\\semenova\\node_modules\\typescript\\lib&quot;,
-    &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "ASKED_ADD_EXTERNAL_FILES": "true",
+    "ASKED_SHARE_PROJECT_CONFIGURATION_FILES": "true",
+    "RunOnceActivity.OpenProjectViewOnStart": "true",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "WebServerToolWindowFactoryState": "false",
+    "last_opened_file_path": "D:/code/semenova/src/components/Section/NagaStyle",
+    "list.type.of.created.stylesheet": "SCSS",
+    "node.js.detected.package.eslint": "true",
+    "node.js.detected.package.standard": "true",
+    "node.js.selected.package.eslint": "(autodetect)",
+    "node.js.selected.package.standard": "",
+    "nodejs_package_manager_path": "npm",
+    "run.code.analysis.last.selected.profile": "pProject Default",
+    "ts.external.directory.path": "D:\\code\\semenova\\node_modules\\typescript\\lib",
+    "vue.rearranger.settings.migration": "true"
   }
-}</component>
+}]]></component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="D:\code\semenova\src\components\Section\NagaStyle" />
+      <recent name="D:\code\semenova\src\components\Section\MallStyle" />
+      <recent name="D:\code\semenova\src\components\Section\MallQuiz" />
       <recent name="D:\code\semenova\src\components\Section\Anniversary" />
     </key>
     <key name="MoveFile.RECENT_KEYS">
+      <recent name="D:\code\semenova\src\assets\AnniversarySlides" />
+      <recent name="D:\code\semenova\src\components\Section" />
       <recent name="D:\code\semenova\src\components" />
       <recent name="D:\code\semenova\src\components\Carousel\Buttons" />
     </key>
@@ -124,7 +118,9 @@
       <workItem from="1688218666463" duration="596000" />
       <workItem from="1688240429670" duration="4000" />
       <workItem from="1688250283529" duration="298000" />
-      <workItem from="1688337537366" duration="310000" />
+      <workItem from="1688337537366" duration="1057000" />
+      <workItem from="1688369487199" duration="2573000" />
+      <workItem from="1688373944868" duration="7269000" />
     </task>
     <task id="LOCAL-00001" summary="index.html name changed;&#10;smooth scroll added;">
       <created>1687429412079</created>
@@ -329,7 +325,35 @@
       <option name="project" value="LOCAL" />
       <updated>1687986770193</updated>
     </task>
-    <option name="localTasksCounter" value="30" />
+    <task id="LOCAL-00030" summary="button opacity changed to .3/small css touches/carousel css reloc to local SCSS">
+      <created>1688338016387</created>
+      <option name="number" value="00030" />
+      <option name="presentableId" value="LOCAL-00030" />
+      <option name="project" value="LOCAL" />
+      <updated>1688338016387</updated>
+    </task>
+    <task id="LOCAL-00031" summary="button opacity changed to .3/small css touches/carousel css reloc to local SCSS">
+      <created>1688338081167</created>
+      <option name="number" value="00031" />
+      <option name="presentableId" value="LOCAL-00031" />
+      <option name="project" value="LOCAL" />
+      <updated>1688338081167</updated>
+    </task>
+    <task id="LOCAL-00032" summary="refactoring paths; rebuilding project w/AVIF images;">
+      <created>1688380001580</created>
+      <option name="number" value="00032" />
+      <option name="presentableId" value="LOCAL-00032" />
+      <option name="project" value="LOCAL" />
+      <updated>1688380001580</updated>
+    </task>
+    <task id="LOCAL-00033" summary="refactoring paths; rebuilding project w/AVIF images;">
+      <created>1688380070072</created>
+      <option name="number" value="00033" />
+      <option name="presentableId" value="LOCAL-00033" />
+      <option name="project" value="LOCAL" />
+      <updated>1688380070072</updated>
+    </task>
+    <option name="localTasksCounter" value="34" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -346,7 +370,7 @@
                   <entry key="branch">
                     <value>
                       <list>
-                        <option value="develop" />
+                        <option value="feature/content_addition" />
                       </list>
                     </value>
                   </entry>
@@ -411,6 +435,8 @@
     <MESSAGE value="carousel allocated w/optimisation and adaptive swipe/button slider;&#10;arrows removed;&#10;small style touches" />
     <MESSAGE value="all sections are brought to the Seagull point;" />
     <MESSAGE value="margin settings" />
-    <option name="LAST_COMMIT_MESSAGE" value="margin settings" />
+    <MESSAGE value="button opacity changed to .3/small css touches/carousel css reloc to local SCSS" />
+    <MESSAGE value="refactoring paths; rebuilding project w/AVIF images;" />
+    <option name="LAST_COMMIT_MESSAGE" value="refactoring paths; rebuilding project w/AVIF images;" />
   </component>
 </project>
