@@ -22,13 +22,9 @@ function SlideCarousel(props: any) {
         showIndicators: false,
     }
 
-    console.log(currentIndex)
-
     if (window.innerWidth < 700) {
         attributes.showArrows = false
     }
-
-    console.log()
 
     return (
         <div>
