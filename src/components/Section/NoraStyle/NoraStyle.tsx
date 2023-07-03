@@ -1,7 +1,7 @@
 import React from "react";
 import "react-responsive-carousel/lib/styles/carousel.min.css";
-import styles from './Seagull.module.scss';
-import {slides, sectionDescription} from './SeagullData';
+import styles from './NoraStyle.module.scss';
+import {slides, sectionDescription} from './NoraStyleData';
 import '../../../styles/_carouselStyles.scss'
 import SlideCarousel from "../../Carousel/Carousel";
 
@@ -12,8 +12,7 @@ const renderSlides = slides.map((image) => (
     </div>
 ));
 
-function Seagull() {
-
+function NoraStyle() {
     return (
         <div className={`${styles.section} ${styles.section_margin}`}>
 
@@ -23,4 +22,4 @@ function Seagull() {
     )
 }
 
-export default Seagull;
+export default NoraStyle;

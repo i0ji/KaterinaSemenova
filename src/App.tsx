@@ -3,7 +3,9 @@ import Header from './components/Header/Header';
 import Footer from './components/Footer/Footer';
 import Seagull from './components/Section/Seagull/Seagull';
 import Anniversary from "./components/Section/Anniversary/Anniversary";
-import Mall from "./components/Section/Mall/Mall";
+import NagaStyle from "./components/Section/NagaStyle/NagaStyle";
+import NoraQuiz from "./components/Section/NoraQuiz/NoraQuiz";
+import NoraStyle from "./components/Section/NoraStyle/NoraStyle";
 
 export const scrollLink = {
     id: 1,
@@ -16,7 +18,9 @@ function App() {
             <Header/>
             <Seagull/>
             <Anniversary/>
-            <Mall/>
+            <NagaStyle/>
+            <NoraStyle/>
+            <NoraQuiz/>
             <Footer/>
         </div>
     )
