@@ -1,6 +1,6 @@
 import React, {useState} from "react";
 import {Carousel} from "react-responsive-carousel";
-import '../../styles/_carouselStyles.scss'
+import './Carousel.scss';
 
 
 function SlideCarousel(props: any) {
@@ -12,9 +12,11 @@ function SlideCarousel(props: any) {
     }
 
     const attributes = {
+        preventMovementUntilSwipeScrollTolerance: true,
+        swipeScrollTolerance: 50,
         showArrows: true,
         autoPlay: true,
-        interval: 5000,
+        interval: 10000,
         showThumbs: false,
         showStatus: false,
         infiniteLoop: true,

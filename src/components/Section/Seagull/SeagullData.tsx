@@ -18,4 +18,4 @@ export const slides = [
     {img: s8},
 ];
 
-export const sectionDescription = 'Бассейн под открытым небом «Чайка» —— Фирменный стиль —— 2022';
+export const sectionDescription = 'Бассейн «Чайка» —— айдентика —— 2022';
