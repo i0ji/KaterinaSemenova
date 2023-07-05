@@ -13,7 +13,6 @@ export const slides = [
     {img: q4},
     {img: q5},
     {img: q6},
-
 ]
 
-export const sectionDescription = 'ТРЦ «Нора»  ——  Оформление игры «Квиз» —— 2022';
+export const sectionDescription = 'ТРЦ «Нора»  ——  оформление игры «Квиз» —— 2022';

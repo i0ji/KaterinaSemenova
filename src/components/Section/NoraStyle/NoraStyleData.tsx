@@ -10,4 +10,4 @@ export const slides = [
     {img: s3}
 ]
 
-export const sectionDescription = 'ТРЦ «Нора»  ——  Фирменный стиль —— 2021';
+export const sectionDescription = 'ТРЦ «Нора»  ——  айдентика —— 2021';

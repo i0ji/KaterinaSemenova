@@ -3,6 +3,7 @@
   src: url('../assets/Fonts/centurygothic.ttf');
   font-style: normal;
   font-weight: 400;
+  font-display: swap;
 }
 
 body {
@@ -12,15 +13,8 @@ body {
 }
 
 
-@media (max-width: 700px) {
-  body {
-    font-size: 16px;
-  }
-}
-
-@media (min-width: 701px) and (max-width: 1199px) {
+@media (max-width: 1199px) {
   body {
     font-size: 20px;
   }
 }
-

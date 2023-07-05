@@ -18,4 +18,4 @@ export const slides = [
     {img: m8}
 ]
 
-export const sectionDescription = 'Бизнес-центр «Нагатинский» ——  Фирменный стиль —— 2022';
+export const sectionDescription = 'БЦ «Нагатинский» —— айдентика —— 2022';

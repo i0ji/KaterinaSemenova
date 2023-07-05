@@ -1,10 +1,6 @@
 @import './styles/_reset.scss';
 @import './styles/_font.scss';
 
-::-webkit-scrollbar {
-  width: 0;
-}
-
 html {
   scroll-behavior: smooth;
   display: flex;

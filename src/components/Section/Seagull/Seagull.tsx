@@ -2,7 +2,7 @@ import React from "react";
 import "react-responsive-carousel/lib/styles/carousel.min.css";
 import styles from './Seagull.module.scss';
 import {slides, sectionDescription} from './SeagullData';
-import '../../../styles/_carouselStyles.scss'
+import '../../Carousel/Carousel.scss'
 import SlideCarousel from "../../Carousel/Carousel";
 
 
