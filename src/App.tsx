@@ -7,11 +7,6 @@ import NagaStyle from "./components/Section/NagaStyle/NagaStyle";
 import NoraQuiz from "./components/Section/NoraQuiz/NoraQuiz";
 import NoraStyle from "./components/Section/NoraStyle/NoraStyle";
 
-export const scrollLink = {
-    id: 1,
-    url: '#about',
-}
-
 function App() {
     return (
         <div>
