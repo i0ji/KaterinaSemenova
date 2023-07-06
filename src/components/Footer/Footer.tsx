@@ -1,7 +1,6 @@
 import React from "react";
 import styles from './Footer.module.scss'
 
-
 function Footer() {
     return (
         <div className={styles.footer}>
@@ -32,7 +31,7 @@ function Footer() {
                 </div>
                 <div>
                     <p>+7 905 538 60 75</p>
-                    <p> katerinasemenova93@gmail.com</p>
+                    <p>katerinasemenova93@gmail.com</p>
                     <p>@KateSemenovaV</p>
                 </div>
             </div>

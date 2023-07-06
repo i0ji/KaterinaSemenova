@@ -1,15 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="7005cf98-fb50-495d-8503-e093c84b8493" name="Changes" comment="[TAG]">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/public/index.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/logo192.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/logo512.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/Footer/Footer.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/Footer/Footer.tsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/Header/1000.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/Header/500.jpg" beforeDir="false" />
-    </list>
+    <list default="true" id="7005cf98-fb50-495d-8503-e093c84b8493" name="Changes" comment="scroll set; favicon/logo set" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -28,7 +20,7 @@
   <component name="Git.Settings">
     <option name="RECENT_BRANCH_BY_REPOSITORY">
       <map>
-        <entry key="$PROJECT_DIR$" value="feature/meta_setting" />
+        <entry key="$PROJECT_DIR$" value="feature/slide_optimisation_2" />
       </map>
     </option>
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
@@ -66,6 +58,7 @@
     &quot;node.js.selected.package.standard&quot;: &quot;&quot;,
     &quot;nodejs_package_manager_path&quot;: &quot;npm&quot;,
     &quot;run.code.analysis.last.selected.profile&quot;: &quot;pProject Default&quot;,
+    &quot;settings.editor.selected.configurable&quot;: &quot;preferences.lookFeel&quot;,
     &quot;ts.external.directory.path&quot;: &quot;D:\\code\\semenova\\node_modules\\typescript\\lib&quot;,
     &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
   }
@@ -140,7 +133,11 @@
       <workItem from="1688550073754" duration="3139000" />
       <workItem from="1688558749617" duration="1756000" />
       <workItem from="1688591359390" duration="2424000" />
-      <workItem from="1688618060405" duration="2054000" />
+      <workItem from="1688618060405" duration="8717000" />
+      <workItem from="1688627499469" duration="165000" />
+      <workItem from="1688627677734" duration="237000" />
+      <workItem from="1688627925937" duration="194000" />
+      <workItem from="1688628132619" duration="116000" />
     </task>
     <task id="LOCAL-00001" summary="index.html name changed;&#10;smooth scroll added;">
       <created>1687429412079</created>
@@ -401,7 +398,28 @@
       <option name="project" value="LOCAL" />
       <updated>1688545091696</updated>
     </task>
-    <option name="localTasksCounter" value="38" />
+    <task id="LOCAL-00038" summary="some logo/favicon settings">
+      <created>1688620320278</created>
+      <option name="number" value="00038" />
+      <option name="presentableId" value="LOCAL-00038" />
+      <option name="project" value="LOCAL" />
+      <updated>1688620320278</updated>
+    </task>
+    <task id="LOCAL-00039" summary="scroll set; favicon/logo set">
+      <created>1688625332660</created>
+      <option name="number" value="00039" />
+      <option name="presentableId" value="LOCAL-00039" />
+      <option name="project" value="LOCAL" />
+      <updated>1688625332660</updated>
+    </task>
+    <task id="LOCAL-00040" summary="scroll set; favicon/logo set">
+      <created>1688627280165</created>
+      <option name="number" value="00040" />
+      <option name="presentableId" value="LOCAL-00040" />
+      <option name="project" value="LOCAL" />
+      <updated>1688627280165</updated>
+    </task>
+    <option name="localTasksCounter" value="41" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -418,7 +436,7 @@
                   <entry key="branch">
                     <value>
                       <list>
-                        <option value="develop" />
+                        <option value="feature/scroll_refactoring" />
                       </list>
                     </value>
                   </entry>
@@ -462,8 +480,6 @@
   </component>
   <component name="VcsManagerConfiguration">
     <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
-    <MESSAGE value="small style touches;&#10;height set;" />
-    <MESSAGE value="sections w/slides components done" />
     <MESSAGE value="section description added" />
     <MESSAGE value="margin/padding/styling set" />
     <MESSAGE value="gh pages build" />
@@ -487,6 +503,8 @@
     <MESSAGE value="avif images added; small css margin settings" />
     <MESSAGE value="[TAG] some features added; footer text corrected; swipe/scroll set" />
     <MESSAGE value="[TAG]" />
-    <option name="LAST_COMMIT_MESSAGE" value="[TAG]" />
+    <MESSAGE value="some logo/favicon settings" />
+    <MESSAGE value="scroll set; favicon/logo set" />
+    <option name="LAST_COMMIT_MESSAGE" value="scroll set; favicon/logo set" />
   </component>
 </project>
