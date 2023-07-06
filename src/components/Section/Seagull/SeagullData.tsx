@@ -1,11 +1,11 @@
-import s1 from '../../../assets/SeagullSlides/s1.avif';
-import s2 from '../../../assets/SeagullSlides/s2.avif';
-import s3 from '../../../assets/SeagullSlides/s3.avif';
-import s4 from '../../../assets/SeagullSlides/s4.avif';
-import s5 from '../../../assets/SeagullSlides/s5.avif';
-import s6 from '../../../assets/SeagullSlides/s6.avif';
-import s7 from '../../../assets/SeagullSlides/s7.avif';
-import s8 from '../../../assets/SeagullSlides/s8.avif';
+import s1 from '../../../assets/SeagullSlides/s1.webp';
+import s2 from '../../../assets/SeagullSlides/s2.webp';
+import s3 from '../../../assets/SeagullSlides/s3.webp';
+import s4 from '../../../assets/SeagullSlides/s4.webp';
+import s5 from '../../../assets/SeagullSlides/s5.webp';
+import s6 from '../../../assets/SeagullSlides/s6.webp';
+import s7 from '../../../assets/SeagullSlides/s7.webp';
+import s8 from '../../../assets/SeagullSlides/s8.webp';
 
 export const slides = [
     {img: s1},

@@ -1,8 +1,6 @@
-import s1 from '../../../assets/NoraStyleSlides/s1.avif';
-import s2 from '../../../assets/NoraStyleSlides/s2.avif';
-import s3 from '../../../assets/NoraStyleSlides/s3.avif';
-
-
+import s1 from '../../../assets/NoraStyleSlides/s1.webp';
+import s2 from '../../../assets/NoraStyleSlides/s2.webp';
+import s3 from '../../../assets/NoraStyleSlides/s3.webp';
 
 export const slides = [
     {img: s1},
