@@ -8,7 +8,7 @@ import SlideCarousel from "../../Carousel/Carousel";
 
 
 const renderSlides = slides.map((image) => (
-    <div>
+    <div key={image.id}>
         <img src={image.img} alt={sectionDescription}/>
     </div>
 ));

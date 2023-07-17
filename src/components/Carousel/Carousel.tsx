@@ -36,7 +36,7 @@ export default function SlideCarousel(props: any) {
             </Carousel>
             <div className={'carousel__description'}>
                 <p>{props.description}</p>
-                <p>{`${currentIndex+1} / ${props.renderSlides.length}`}</p>
+                <p>{`${currentIndex + 1} / ${props.renderSlides.length}`}</p>
             </div>
         </div>
     )
