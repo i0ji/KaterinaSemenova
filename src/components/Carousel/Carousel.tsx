@@ -17,7 +17,7 @@ export default function SlideCarousel(props: any) {
         showArrows: true,
         autoPlay: true,
         interval: 10000,
-        showThumbs: true,
+        showThumbs: false,
         showStatus: false,
         infiniteLoop: true,
         onChange: handleChange,
