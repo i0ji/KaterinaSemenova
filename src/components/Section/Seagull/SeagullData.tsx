@@ -8,14 +8,15 @@ import s7 from '../../../assets/SeagullSlides/s7.webp';
 import s8 from '../../../assets/SeagullSlides/s8.webp';
 
 export const slides = [
-    {img: s1},
-    {img: s2},
-    {img: s3},
-    {img: s4},
-    {img: s5},
-    {img: s6},
-    {img: s7},
-    {img: s8},
+    {id: 1, img: s1},
+    {id: 2, img: s2},
+    {id: 3, img: s3},
+    {id: 4, img: s4},
+    {id: 5, img: s5},
+    {id: 6, img: s6},
+    {id: 7, img: s7},
+    {id: 8, img: s8}
+
 ];
 
 export const sectionDescription = 'Бассейн «Чайка» —— айдентика —— 2022';

@@ -3,7 +3,7 @@ import styles from "./Header.module.scss"
 import {Link} from "react-scroll";
 
 
-function Header() {
+export default function Header() {
 
 
     return (
@@ -16,5 +16,3 @@ function Header() {
         </div>
     )
 }
-
-export default Header

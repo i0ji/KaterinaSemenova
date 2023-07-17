@@ -4,10 +4,10 @@ import a3 from '../../../assets/AnniversarySlides/a3.webp';
 import a4 from '../../../assets/AnniversarySlides/a4.webp';
 
 export const slides = [
-    {img: a1},
-    {img: a2},
-    {img: a3},
-    {img: a4},
+    {id: 1, img: a1},
+    {id: 2, img: a2},
+    {id: 3, img: a3},
+    {id: 4, img: a4},
 ]
 
 export const sectionDescription = 'Бассейн «Чайка» —— оформление к 69-летию бассейна —— 2022';

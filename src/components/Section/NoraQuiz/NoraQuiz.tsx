@@ -12,7 +12,7 @@ const renderSlides = slides.map((image) => (
     </div>
 ));
 
-function NoraQuiz() {
+export default function NoraQuiz() {
     return (
         <div className={`${styles.section} ${styles.section_margin}`}>
 
@@ -21,5 +21,3 @@ function NoraQuiz() {
         </div>
     )
 }
-
-export default NoraQuiz;

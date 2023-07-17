@@ -12,7 +12,7 @@ const renderSlides = slides.map((image) => (
     </div>
 ));
 
-function NoraStyle() {
+export default function NoraStyle() {
     return (
         <div className={`${styles.section} ${styles.section_margin}`}>
 
@@ -21,5 +21,3 @@ function NoraStyle() {
         </div>
     )
 }
-
-export default NoraStyle;

@@ -3,9 +3,9 @@ import s2 from '../../../assets/NoraStyleSlides/s2.webp';
 import s3 from '../../../assets/NoraStyleSlides/s3.webp';
 
 export const slides = [
-    {img: s1},
-    {img: s2},
-    {img: s3}
+    {id: 1, img: s1},
+    {id: 2, img: s2},
+    {id: 3, img: s3}
 ]
 
 export const sectionDescription = 'ТРЦ «Нора»  ——  айдентика —— 2021';
