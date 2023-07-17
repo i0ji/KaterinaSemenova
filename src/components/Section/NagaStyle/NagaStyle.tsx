@@ -12,7 +12,7 @@ const renderSlides = slides.map((image) => (
     </div>
 ));
 
-function NagaStyle() {
+export default function NagaStyle() {
 
     return (
         <div className={`${styles.section} ${styles.section_margin}`}>
@@ -22,5 +22,3 @@ function NagaStyle() {
         </div>
     )
 }
-
-export default NagaStyle;

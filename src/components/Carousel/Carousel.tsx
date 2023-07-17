@@ -3,7 +3,7 @@ import {Carousel} from "react-responsive-carousel";
 import './Carousel.scss';
 
 
-function SlideCarousel(props: any) {
+export default function SlideCarousel(props: any) {
 
     const [currentIndex, setCurrentIndex] = useState(0);
 
@@ -17,11 +17,11 @@ function SlideCarousel(props: any) {
         showArrows: true,
         autoPlay: true,
         interval: 10000,
-        showThumbs: false,
+        showThumbs: true,
         showStatus: false,
         infiniteLoop: true,
         onChange: handleChange,
-        showIndicators: false,
+        showIndicators: true,
     }
 
     if (window.innerWidth < 700) {
@@ -41,8 +41,5 @@ function SlideCarousel(props: any) {
         </div>
     )
 }
-
-
-export default SlideCarousel;
 
 

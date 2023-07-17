@@ -7,12 +7,12 @@ import SlideCarousel from "../../Carousel/Carousel";
 
 
 const renderSlides = slides.map((image) => (
-    <div>
+    <div key={image.id}>
         <img src={image.img} alt={sectionDescription}/>
     </div>
 ));
 
-function Seagull() {
+export default function Seagull() {
 
     return (
         <div className={`${styles.section} ${styles.section_margin}`}>
@@ -22,5 +22,3 @@ function Seagull() {
         </div>
     )
 }
-
-export default Seagull;

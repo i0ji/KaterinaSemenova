@@ -13,7 +13,7 @@ const renderSlides = slides.map((image) => (
     </div>
 ));
 
-function Anniversary() {
+export default function Anniversary() {
 
     return (
         <div className={`${styles.section} ${styles.section_margin}`}>
@@ -23,5 +23,3 @@ function Anniversary() {
         </div>
     )
 }
-
-export default Anniversary;
