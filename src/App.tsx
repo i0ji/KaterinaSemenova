@@ -6,6 +6,7 @@ import Anniversary from "./components/Section/Anniversary/Anniversary";
 import NagaStyle from "./components/Section/NagaStyle/NagaStyle";
 import NoraQuiz from "./components/Section/NoraQuiz/NoraQuiz";
 import NoraStyle from "./components/Section/NoraStyle/NoraStyle";
+import Tsum from "./components/Section/Tsum/Tsum";
 
 function App() {
     return (
@@ -16,6 +17,7 @@ function App() {
             <NagaStyle/>
             <NoraStyle/>
             <NoraQuiz/>
+            <Tsum/>
             <Footer/>
         </div>
     )
