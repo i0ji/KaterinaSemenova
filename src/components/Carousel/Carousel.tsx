@@ -2,12 +2,16 @@ import React, {useState} from "react";
 import {Carousel} from "react-responsive-carousel";
 import './Carousel.scss';
 
+export interface imageProps {
+    renderSlides: JSX.Element[];
+    description: string;
+}
 
-export default function SlideCarousel(props: any) {
+export default function SlideCarousel(props: imageProps) {
 
     const [currentIndex, setCurrentIndex] = useState(0);
 
-    const handleChange = (index: any) => {
+    const handleChange = (index: number) => {
         setCurrentIndex(index);
     }
 
