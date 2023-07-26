@@ -1,0 +1,19 @@
+.section {
+  margin-bottom: 80px;
+}
+
+@media (max-width: 700px) {
+  .section_margin {
+    margin-bottom: 60px;
+  }
+}
+@media (max-width: 390px) {
+  .section_margin {
+    margin-bottom: 30px;
+  }
+}
+.section_margin {
+  margin-bottom: 30px;
+}
+
+/*# sourceMappingURL=Pattern.module.css.map */
