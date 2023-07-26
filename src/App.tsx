@@ -7,6 +7,7 @@ import NagaStyle from "./components/Section/NagaStyle/NagaStyle";
 import NoraQuiz from "./components/Section/NoraQuiz/NoraQuiz";
 import NoraStyle from "./components/Section/NoraStyle/NoraStyle";
 import Tsum from "./components/Section/Tsum/Tsum";
+import Pattern from "./components/Section/Pattern/Pattern";
 
 function App() {
     return (
@@ -18,6 +19,7 @@ function App() {
             <NoraStyle/>
             <NoraQuiz/>
             <Tsum/>
+            <Pattern/>
             <Footer/>
         </div>
     )

@@ -8,4 +8,4 @@ export const slides = [
     {id: 2, img: s3}
 ]
 
-export const sectionDescription = 'ТРЦ «Нора»  ——  айдентика —— 2021';
+export const sectionDescription = 'ТРЦ Нора  ——  айдентика —— 2021';

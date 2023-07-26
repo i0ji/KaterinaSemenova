@@ -13,4 +13,4 @@ export const slides = [
 
 ];
 
-export const sectionDescription = 'ТЦ ЦУМ —— Реклама фудкорта —— 2023';
+export const sectionDescription = 'ТЦ ЦУМ —— Реклама фуд-корта —— 2023';
