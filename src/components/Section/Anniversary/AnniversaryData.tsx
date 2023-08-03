@@ -10,4 +10,4 @@ export const slides = [
     {id: 3, img: a4},
 ]
 
-export const sectionDescription = 'Бассейн «Чайка» —— оформление к 69-летию бассейна —— 2022';
+export const sectionDescription = `Бассейн «Чайка» —— оформление к${'\u00A0'}69-летию бассейна —— 2022`;
