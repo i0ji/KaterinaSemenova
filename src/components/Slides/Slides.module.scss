@@ -7,10 +7,13 @@
     margin-bottom: 60px;
   }
 }
+
 @media (max-width: 390px) {
   .section_margin {
     margin-bottom: 30px;
   }
 }
 
-/*# sourceMappingURL=Anniversary.module.css.map */
+.last {
+  margin-bottom: 30px;
+}
