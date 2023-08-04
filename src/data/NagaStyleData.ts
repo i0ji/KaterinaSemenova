@@ -19,3 +19,4 @@ export const NagaStyleSlides = [
 ]
 
 export const NagaStyleDescription = 'БЦ «Нагатинский» —— айдентика —— 2022';
+

@@ -10,20 +10,25 @@ import {PatternSlides, PatternDescription} from './data/PatternData';
 import {TsumSlides, TsumDescription} from "./data/TsumData";
 import {SeagullSlides, SeagullDescription} from "./data/SeagullData";
 
+
 function App() {
 
+    let lastSlide = true;
+
     return (
-        <>
+        <div>
             <Header/>
+
             <Slides slides={SeagullSlides} description={SeagullDescription}/>
             <Slides slides={AnniversarySlides} description={AnniversaryDescription}/>
             <Slides slides={NagaStyleSlides} description={NagaStyleDescription}/>
             <Slides slides={NoraStyleSlides} description={NoraStyleDescription}/>
             <Slides slides={NoraQuizSlides} description={NoraQuizDescription}/>
             <Slides slides={TsumSlides} description={TsumDescription}/>
-            <Slides slides={PatternSlides} description={PatternDescription}/>
+            <Slides lastSlide={lastSlide} slides={PatternSlides} description={PatternDescription}/>
+
             <Footer/>
-        </>
+        </div>
     )
 }
 

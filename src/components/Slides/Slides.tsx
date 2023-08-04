@@ -30,10 +30,9 @@ export default function Slides(props: any) {
         attributes.showArrows = false
     }
 
-
     return (
 
-        <div className={`${styles.section} ${styles.section_margin}`}>
+        <div className={ props.lastSlide ? (`${styles.section_last_slide} ${styles.section_margin}`) : (`${styles.section} ${styles.section_margin}`)}>
             <Carousel
                 {...attributes}
             >{props.slides.map((image: any) => (
@@ -41,7 +40,7 @@ export default function Slides(props: any) {
                     <img key={image.id} src={image.img} alt={props.description}/>
                 </div>))}
             </Carousel>
-            <div className={'carousel__description'}>
+            <div className={'description'}>
                 <p>{props.description}</p>
                 <p>{`${currentIndex + 1} / ${props.slides.length}`}</p>
             </div>

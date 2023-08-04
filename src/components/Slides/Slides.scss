@@ -34,7 +34,7 @@
   cursor: default;
 }
 
-.carousel__description {
+.description {
   display: flex;
   justify-content: space-between;
 }
@@ -46,9 +46,13 @@
 }
 
 @media (max-width: 1040px) {
-  .carousel__description {
+  .description {
     p:nth-child(2) {
       display: none;
     }
   }
+}
+
+.last_slide {
+  margin-bottom: 30px!important;
 }

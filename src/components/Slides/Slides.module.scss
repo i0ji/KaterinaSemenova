@@ -2,6 +2,10 @@
   margin-bottom: 80px;
 }
 
+.section_last_slide {
+  margin-bottom: 30px;
+}
+
 @media (max-width: 700px) {
   .section_margin {
     margin-bottom: 60px;
@@ -12,8 +16,4 @@
   .section_margin {
     margin-bottom: 30px;
   }
-}
-
-.last {
-  margin-bottom: 30px;
 }
