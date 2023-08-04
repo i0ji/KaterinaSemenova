@@ -2,6 +2,10 @@
   margin-bottom: 80px;
 }
 
+.section_last_slide {
+  margin-bottom: 30px;
+}
+
 @media (max-width: 700px) {
   .section_margin {
     margin-bottom: 60px;
@@ -13,4 +17,4 @@
   }
 }
 
-/*# sourceMappingURL=Anniversary.module.css.map */
+/*# sourceMappingURL=Slides.module.css.map */
