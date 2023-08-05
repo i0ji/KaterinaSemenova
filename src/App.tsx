@@ -2,33 +2,26 @@ import React from 'react';
 import Header from './components/Header/Header';
 import Footer from './components/Footer/Footer';
 import Slides from "./components/Slides/Slides";
-import {AnniversarySlides, AnniversaryDescription} from './data/AnniversaryData' ;
-import {NagaStyleSlides, NagaStyleDescription} from './data/NagaStyleData';
-import {NoraQuizSlides, NoraQuizDescription} from './data/NoraQuizData';
-import {NoraStyleSlides, NoraStyleDescription} from './data/NoraStyleData';
-import {PatternSlides, PatternDescription} from './data/PatternData';
-import {TsumSlides, TsumDescription} from "./data/TsumData";
-import {SeagullSlides, SeagullDescription} from "./data/SeagullData";
+import {Data} from "./data/Storage"
+import {SlidesData} from "./interfaces"
 
 
 function App() {
 
-    let lastSlide = true;
 
     return (
-        <div>
+        <>
             <Header/>
-
-            <Slides slides={SeagullSlides} description={SeagullDescription}/>
-            <Slides slides={AnniversarySlides} description={AnniversaryDescription}/>
-            <Slides slides={NagaStyleSlides} description={NagaStyleDescription}/>
-            <Slides slides={NoraStyleSlides} description={NoraStyleDescription}/>
-            <Slides slides={NoraQuizSlides} description={NoraQuizDescription}/>
-            <Slides slides={TsumSlides} description={TsumDescription}/>
-            <Slides lastSlide={lastSlide} slides={PatternSlides} description={PatternDescription}/>
-
+            {
+                Data.map((section: SlidesData) => (
+                    <div key={section.id}>
+                        <Slides slides={section.slides} description={section.description}
+                                lastSlide={section.lastSlide}/>
+                    </div>
+                ))
+            }
             <Footer/>
-        </div>
+        </>
     )
 }
 

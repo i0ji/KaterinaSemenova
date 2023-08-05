@@ -2,8 +2,10 @@ import a1 from '../assets/AnniversarySlides/a1.webp';
 import a2 from '../assets/AnniversarySlides/a2.webp';
 import a3 from '../assets/AnniversarySlides/a3.webp';
 import a4 from '../assets/AnniversarySlides/a4.webp';
+import {SlidesInterface} from '../interfaces'
 
-export const AnniversarySlides = [
+
+export const AnniversarySlides: Array<SlidesInterface> = [
     {id: 0, img: a1},
     {id: 1, img: a2},
     {id: 2, img: a3},

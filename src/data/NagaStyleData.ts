@@ -6,8 +6,9 @@ import m5 from '../assets/NagaStyleSlides/m5.webp';
 import m6 from '../assets/NagaStyleSlides/m6.webp';
 import m7 from '../assets/NagaStyleSlides/m7.webp';
 import m8 from '../assets/NagaStyleSlides/m8.webp';
+import {SlidesInterface} from '../interfaces'
 
-export const NagaStyleSlides = [
+export const NagaStyleSlides: Array<SlidesInterface> = [
     {id: 0, img: m1},
     {id: 1, img: m2},
     {id: 2, img: m3},
