@@ -19,7 +19,6 @@ export const Data: Array<SlidesData> = [
         description: AnniversaryDescription,
         id: 2
     },
-
     {
         slides: NagaStyleSlides,
         description: NagaStyleDescription,
@@ -30,7 +29,6 @@ export const Data: Array<SlidesData> = [
         description: NoraStyleDescription,
         id: 4
     },
-
     {
         slides: NoraQuizSlides,
         description: NoraQuizDescription,

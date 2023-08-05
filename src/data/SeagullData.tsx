@@ -17,7 +17,6 @@ export const SeagullSlides: Array<SlidesInterface> = [
     {id: 5, img: s6},
     {id: 6, img: s7},
     {id: 7, img: s8}
-
 ];
 
 export const SeagullDescription = 'Бассейн «Чайка» —— айдентика —— 2022';
