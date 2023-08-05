@@ -13,16 +13,17 @@ to 13 mb, i.e. 4.3 times. And yet the work continues!
 
 
 ### - Currently/Priority tasks:
-- [X] Indexing (Favicon? Meta description still does not work) - Work is underway to index the site on Yandex.ru and Google.com through the appropriate services.
+- [X] Indexing (Favicon? Meta description still does not work) - Work is underway to index the site on Yandex.ru and Google.com through the appropriate services.<BR>
   <b>Indexing has ended and i got favicon set. Meta set</b>
 - [ ] Permanent bundle optimising - Further code optimization using webpack-bundler-analyzer tools. (Maybe "treeshake? What is that!?)
-- [ ] Adding/rewriting some content
+- [,,in progress] Adding/rewriting some content<BR>
   <b>In progress. Two more blocks added</b>
-- [ ] Some space adding between blocks(?)
-- [X] Adding dots to slides(?)
+- [X] Some space adding between blocks(?)<BR>
+  <b>Done and set</b>
+- [X] Adding dots to slides(?)<BR>
 <b>Together with the designer, it was decided to add these points for best UX</b>
 
 ### - Library usage:
  * react-response-carousel
  * react-scroll
- * react-helmet(?) - will depend on the results of indexing
+ * react-helmet(?) - will depend on the results of indexing - 
