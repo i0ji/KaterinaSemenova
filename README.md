@@ -1,7 +1,7 @@
 ## Website for graphic designer **Katerina Semenova** - [HERE!](https://katerinasemenova.ru).
 ## My first freelance experience in creating, optimizing, indexing, customizing and launching a site from the moment I first saw the layout and interacted with the designer to putting it into production.
 
-## In the course of work, some features  were reworked:
+### In the course of work, some features  were reworked:
  * At first, the slider was written from scratch, without a third-party library, but there were problems with the dynamic
 implementation of images in adaptive, so I had to completely rewrite the application for the new slider carousel.
 
