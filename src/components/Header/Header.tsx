@@ -6,10 +6,10 @@ export default function Header() {
 
 
     return (
-        <div className={styles.header}>
+        <header className={styles.header}>
             <Link to={'about'}>
                     Катерина Семёнова
             </Link>
-        </div>
+        </header>
     )
 }

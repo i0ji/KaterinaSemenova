@@ -14,10 +14,10 @@ function App() {
             <Header/>
             {
                 Data.map((section: SlidesData) => (
-                    <div key={section.id}>
+                    <section key={section.id}>
                         <Slides slides={section.slides} description={section.description}
                                 lastSlide={section.lastSlide}/>
-                    </div>
+                    </section>
                 ))
             }
             <Footer/>

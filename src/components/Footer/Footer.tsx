@@ -3,7 +3,7 @@ import styles from './Footer.module.scss';
 
 export default function Footer() {
     return (
-        <div className={styles.footer}>
+        <footer className={styles.footer}>
 
             <hr/>
 
@@ -34,6 +34,6 @@ export default function Footer() {
                     <p>@KateSemenovaV</p>
                 </div>
             </div>
-        </div>
+        </footer>
     )
 }

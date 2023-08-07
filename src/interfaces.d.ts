@@ -1,9 +1,9 @@
-export interface SlidesInterface {
+ interface SlidesInterface {
     id: number;
     img: string;
 }
 
-interface SlidesData {
+ export interface SlidesData {
     slides: Array<SlidesInterface>;
     description: string;
     id?: number;
