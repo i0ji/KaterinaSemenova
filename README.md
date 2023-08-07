@@ -1,7 +1,7 @@
 ## Website for graphic designer **Katerina Semenova** - [HERE!](https://katerinasemenova.ru).
-### - My first freelance experience in creating, optimizing, indexing, customizing and launching a site from the moment I first saw the layout and interacted with the designer to putting it into production.
+## - My first freelance experience in creating, optimizing, indexing, customizing and launching a site from the moment I first saw the layout and interacted with the designer to putting it into production.
 
-### - In the course of work, some features  were reworked:
+## - In the course of work, some features  were reworked:
  * At first, the slider was written from scratch, without a third-party library, but there were problems with the dynamic
 implementation of images in adaptive, so I had to completely rewrite the application for the new slider carousel.
 
@@ -13,11 +13,11 @@ to 13 mb, i.e. 4.3 times. And yet the work continues!
 
 
 # Currently/Priority tasks:
-- [X] Indexing (Favicon? Meta description still does not work) - Work is underway to index the site on Yandex.ru and Google.com through the appropriate services.<BR>
+- [X] Indexing (Favicon? Meta description still does not work) - Work is underway to index the site on Yandex.ru and Google.com through the appropriate services<BR>
   <b>Indexing has ended and i got favicon set. Meta set</b>
-- [ ] Permanent bundle optimising - Further code optimization using webpack-bundler-analyzer tools. (Maybe "treeshake? What is that!?)
-- [...in progress] Adding/rewriting some content<BR>
-  <b>In progress. Two more blocks added</b>
+- [ ] Permanent bundle optimising - Further code optimization using webpack-bundler-analyzer tools.\
+- [ ] Adding/rewriting some content<BR>
+  <b>In progress. Two more blocks have been added</b>
 - [X] Some space adding between blocks(?)<BR>
   <b>Done and set</b>
 - [X] Adding dots to slides(?)<BR>
