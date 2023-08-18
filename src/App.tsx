@@ -1,13 +1,11 @@
-import React from 'react';
+import React, {useState} from 'react';
 import Header from './components/Header/Header';
 import Footer from './components/Footer/Footer';
 import Slides from "./components/Slides/Slides";
 import {Data} from "./data/Storage"
 import {SlidesData} from "./interfaces"
 
-
 function App() {
-
 
     return (
         <>

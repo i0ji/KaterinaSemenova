@@ -8,7 +8,7 @@ export default function Header() {
     return (
         <header className={styles.header}>
             <Link to={'about'}>
-                    Катерина Семёнова
+                Катерина Семёнова
             </Link>
         </header>
     )

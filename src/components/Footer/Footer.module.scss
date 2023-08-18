@@ -12,13 +12,10 @@
     display: flex;
     flex-direction: row;
     justify-content: space-between;
+    white-space: pre-line;
 
     article {
       width: 54%;
-    }
-
-    br {
-      display: none;
     }
   }
 
