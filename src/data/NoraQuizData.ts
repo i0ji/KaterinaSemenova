@@ -4,9 +4,9 @@ import q3 from '../assets/NoraQuizSlides/q3.webp';
 import q4 from '../assets/NoraQuizSlides/q4.webp';
 import q5 from '../assets/NoraQuizSlides/q5.webp';
 import q6 from '../assets/NoraQuizSlides/q6.webp';
-import {SlidesInterface} from "../interfaces";
+import {ISlides} from "../interfaces";
 
-export const NoraQuizSlides: Array<SlidesInterface> = [
+export const NoraQuizSlides: Array<ISlides> = [
     {id: 0, img: q1},
     {id: 1, img: q2},
     {id: 2, img: q3},

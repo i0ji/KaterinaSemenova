@@ -5,12 +5,12 @@
   align-items: center;
   height: 45px;
   margin-bottom: 40px;
+  justify-content: space-between;
 }
 .header a {
   position: relative;
   cursor: pointer;
   text-decoration: none;
-  color: black;
 }
 .header a:visited {
   color: black;
@@ -30,6 +30,11 @@
 .header a:hover:after,
 .header a:focus:after {
   width: 80%;
+}
+.header__toggle_bar {
+  font-size: 20px;
+  width: 7%;
+  justify-content: space-between;
 }
 
 @media (max-width: 700px) {

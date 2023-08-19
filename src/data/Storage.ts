@@ -5,10 +5,9 @@ import {NoraQuizSlides, NoraQuizDescription} from "./NoraQuizData";
 import {PatternSlides, PatternDescription} from "./PatternData";
 import {SeagullSlides, SeagullDescription} from "./SeagullData";
 import {TsumSlides, TsumDescription} from "./TsumData";
-import {SlidesData} from "../interfaces";
+import {ISlidesData} from "../interfaces";
 
-
-export const Data: Array<SlidesData> = [
+export const Data: Array<ISlidesData> = [
     {
         slides: SeagullSlides,
         description: SeagullDescription,
@@ -46,6 +45,3 @@ export const Data: Array<SlidesData> = [
         lastSlide: true
     }
 ]
-
-
-

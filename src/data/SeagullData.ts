@@ -6,9 +6,9 @@ import s5 from '../assets/SeagullSlides/s5.webp';
 import s6 from '../assets/SeagullSlides/s6.webp';
 import s7 from '../assets/SeagullSlides/s7.webp';
 import s8 from '../assets/SeagullSlides/s8.webp';
-import {SlidesInterface} from "../interfaces";
+import {ISlides} from "../interfaces";
 
-export const SeagullSlides: Array<SlidesInterface> = [
+export const SeagullSlides: Array<ISlides> = [
     {id: 0, img: s1},
     {id: 1, img: s2},
     {id: 2, img: s3},
@@ -17,6 +17,6 @@ export const SeagullSlides: Array<SlidesInterface> = [
     {id: 5, img: s6},
     {id: 6, img: s7},
     {id: 7, img: s8}
-];
+]
 
 export const SeagullDescription = 'Бассейн «Чайка» —— айдентика —— 2022';

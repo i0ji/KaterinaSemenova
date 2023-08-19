@@ -6,9 +6,9 @@ import s5 from '../assets/PatternSlides/p5.webp';
 import s6 from '../assets/PatternSlides/p6.webp';
 import s7 from '../assets/PatternSlides/p7.webp';
 import s8 from '../assets/PatternSlides/p8.webp';
-import {SlidesInterface} from "../interfaces";
+import {ISlides} from "../interfaces";
 
-export const PatternSlides: Array<SlidesInterface> = [
+export const PatternSlides: Array<ISlides> = [
     {id: 0, img: s1},
     {id: 1, img: s2},
     {id: 2, img: s3},
@@ -17,6 +17,6 @@ export const PatternSlides: Array<SlidesInterface> = [
     {id: 5, img: s6},
     {id: 6, img: s7},
     {id: 7, img: s8}
-];
+]
 
 export const PatternDescription = 'КТК —— Корпоративный фирменный стиль —— 2023';
