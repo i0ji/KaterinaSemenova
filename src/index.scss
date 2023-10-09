@@ -1,11 +1,21 @@
-body {
-  max-width: 1920px;
-  margin: 0 auto;
-  font-family: Century-gothic, sans-serif;
-  line-height: 27px;
-  padding: 0 20px;
+@import './styles/_reset.scss';
+@import './styles/_font.scss';
+
+html {
+  scroll-behavior: smooth;
+  display: flex;
+  justify-content: center;
 }
 
-::-webkit-scrollbar {
-  width: 0;
+body {
+  max-width: 1840px;
+  margin: 0 auto;
+  background-color: transparent;
+}
+
+@media (max-width: 1839px) {
+  body {
+    width: 95%;
+    margin: 0 auto;
+  }
 }

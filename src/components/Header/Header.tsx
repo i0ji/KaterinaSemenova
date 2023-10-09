@@ -1,13 +1,16 @@
 import React from "react";
-import styles from './Header.module.scss'
+import styles from "./Header.module.scss"
+import {Link} from "react-scroll";
 
-function Header() {
+export default function Header() {
+
+
+
     return (
-        <div className={styles.header}>
-            <p>Екатерина Семёнова</p>
-            <a>обо мне</a>
-        </div>
+        <header className={styles.header}>
+            <Link to={'about'}>
+                Катерина Семёнова
+            </Link>
+        </header>
     )
 }
-
-export default Header

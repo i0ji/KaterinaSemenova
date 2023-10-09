@@ -2,21 +2,25 @@
   font-family: Century-gothic, sans-serif;
   font-weight: 500;
   display: flex;
-  justify-content: space-between;
   align-items: center;
-  height: 63px;
+  height: 45px;
+  margin-bottom: 40px;
+  justify-content: space-between;
 
   a {
     position: relative;
     cursor: pointer;
-    text-decoration: none
+    text-decoration: none;
+  }
+
+  a:visited {
+    color: black;
   }
 
   a:after {
     display: block;
     content: "";
-    background-color:
-            black;
+    background-color: black;
     height: 1px;
     width: 0;
     left: 50%;
@@ -28,6 +32,20 @@
 
   a:hover:after,
   a:focus:after {
-    width: 50%;
+    width: 80%;
+  }
+
+  &__toggle_bar {
+    font-size: 20px;
+    display: flex;
+    width: 9%;
+    flex-direction: row;
+    justify-content: space-between;
+  }
+}
+
+@media (max-width: 700px) {
+  .header {
+    margin: 30px 0;
   }
 }

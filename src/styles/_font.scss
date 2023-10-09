@@ -3,4 +3,18 @@
   src: url('../assets/Fonts/centurygothic.ttf');
   font-style: normal;
   font-weight: 400;
+  font-display: swap;
+}
+
+body {
+  font-family: Century-gothic, sans-serif;
+  line-height: 27px;
+  font-size: 22px;
+}
+
+
+@media (max-width: 1199px) {
+  body {
+    font-size: 20px;
+  }
 }

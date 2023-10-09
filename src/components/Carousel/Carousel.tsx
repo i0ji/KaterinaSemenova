@@ -1,67 +1,49 @@
-import React, {useState, useEffect} from "react";
-import styles from './Carousel.module.scss'
+import React, {useState} from "react";
+import {Carousel} from "react-responsive-carousel";
+import './Carousel.scss';
 
+export interface imageProps {
+    renderSlides: JSX.Element[];
+    description: string;
+}
 
-function Carousel(props: any) {
+export default function SlideCarousel(props: imageProps) {
 
-    const {children} = props
     const [currentIndex, setCurrentIndex] = useState(0);
-    const [length, setLength] = useState(children.length);
 
-    useEffect(() => {
-        setLength(children.length)
-    }, [children])
-
-    const next = () => {
-        if (currentIndex < (length - 1)) {
-            setCurrentIndex(prevState => prevState + 1)
-        }
+    const handleChange = (index: number) => {
+        setCurrentIndex(index);
     }
 
-    const prev = () => {
-        if (currentIndex > 0) {
-            setCurrentIndex(prevState => prevState - 1)
-        }
+    const attributes = {
+        preventMovementUntilSwipeScrollTolerance: true,
+        swipeScrollTolerance: 50,
+        showArrows: true,
+        autoPlay: true,
+        interval: 10000,
+        showThumbs: false,
+        showStatus: false,
+        infiniteLoop: true,
+        onChange: handleChange,
+        showIndicators: true,
     }
 
-    useEffect(() => {
-        setLength(children.length)
-    }, [children])
+    if (window.innerWidth < 700) {
+        attributes.showArrows = false
+    }
 
     return (
-        <div className={styles.carousel}>
-
-            <div className={styles.carousel_wrapper}>
-
-                {
-                    currentIndex > 0 &&
-                    <button onClick={prev} className={styles.left_button}>&lt;</button>
-                }
-
-                <div className={styles.carousel_content_wrapper}>
-
-                    <div className={styles.carousel_content}
-                         style={{transform: `translateX(-${currentIndex * 100}%)`}}
-                    >
-                        {children}
-
-                    </div>
-
-                    <div className={styles.carousel_description}>
-                        <p>Бассейн под открытым небом «Чайка» —— Фирменный стиль —— 2022</p>
-                        {`${currentIndex + 1} / ${length}`}
-                    </div>
-
-                </div>
-
-                {
-                    currentIndex < (length - 1) &&
-                    <button onClick={next} className={styles.right_button}>&gt;</button>
-                }
+        <>
+            <Carousel
+                {...attributes}
+            >{props.renderSlides}
+            </Carousel>
+            <div className={'carousel__description'}>
+                <p>{props.description}</p>
+                <p>{`${currentIndex + 1} / ${props.renderSlides.length}`}</p>
             </div>
-
-        </div>
+        </>
     )
 }
 
-export default Carousel;
+
