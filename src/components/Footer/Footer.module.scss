@@ -29,11 +29,15 @@
 
     div {
       width: 54%;
+      display: flex;
+      flex-direction: column;
 
       a {
         position: relative;
+        display:inline-block;
         cursor: pointer;
         text-decoration: none;
+        color: black;
       }
     
       a:visited {
@@ -55,7 +59,7 @@
     
       a:hover:after,
       a:focus:after {
-        width: 80%;
+        width: 100%;
       }
     }
   }

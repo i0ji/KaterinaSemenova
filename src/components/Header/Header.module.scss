@@ -32,15 +32,7 @@
 
   a:hover:after,
   a:focus:after {
-    width: 80%;
-  }
-
-  &__toggle_bar {
-    font-size: 20px;
-    display: flex;
-    width: 9%;
-    flex-direction: row;
-    justify-content: space-between;
+    width: 100%;
   }
 }
 
