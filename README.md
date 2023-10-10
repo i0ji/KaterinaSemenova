@@ -15,15 +15,12 @@ to 13 mb, i.e. 4.3 times. And yet the work continues!
 
  * Some minor scrolling changes to the #about section. At first, the function was also written, but after some tests, i decided to use a third-party library.
 
-### New idea of migration/rebuilding project using Vite + yarn.
+# New idea of migration/rebuilding project using Vite + yarn.
 
 * Since i`ve migrated to vite/yarn i got some issues with fonts and dependencies(easily solved by reading docs);
 * Got strange loading speed indicators:
 Issues with imgs size, TBT, LCP, and overall effiency as a result;
 * Rather large increase in bundling/building/devserver load speed (increase approximately 4-5 times);
-# + to do
-- [ ] adding lazy loading;
-- [ ] sizing imgs;
 
 
 
@@ -36,6 +33,10 @@ Issues with imgs size, TBT, LCP, and overall effiency as a result;
 - [X] Some space adding between blocks(?)<BR>
   <b>Done and set</b>
 - [X] Adding dots to slides(?)<BR>
+### + to do
+- [ ] adding lazy loading;
+- [ ] sizing imgs;
+
 <b>Together with the designer, it was decided to add these points for best UX</b>
 
 
