@@ -11,7 +11,7 @@ export default function Footer() {
             <div id='about'
                  className={styles.footer__about}
             >
-                <h5>Катерина Семёнова</h5>
+                <h4>Катерина Семёнова</h4>
                 <article>Графический дизайнер с&nbsp;6-летним опытом. На&nbsp;данный момент занимаюсь разработкой
                     и&nbsp;поддержкой фирменных стилей, навигации, созданием key visual, POS-материалов, полиграфической
                     продукции для&nbsp;отелей, бизнес-центров и&nbsp;торговых центров.<br/>
@@ -31,7 +31,7 @@ export default function Footer() {
             <div
                 className={styles.footer__contacts}
             >
-                <h5>Контакты</h5>
+                <h4>Контакты</h4>
                 <div>
                     <p><a href="tel:+79055386075">905 538 60 75</a></p>
                     <p><a href="mailto:katerinasemenova93@gmail.com">KaterinaSemenova93@gmail.com</a></p>
