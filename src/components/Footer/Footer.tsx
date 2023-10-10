@@ -32,9 +32,9 @@ export default function Footer() {
             >
                 <h5>Контакты</h5>
                 <div>
-                    <p>+7 905 538 60 75</p>
+                    <a href="tel:+79055386075">+7 905 538 60 75</a>
                     <p>katerinasemenova93@gmail.com</p>
-                    <p>@KateSemenovaV</p>
+                    <a href="https://t.me/KateSemenovaV">KateSemenovaV</a>
                 </div>
             </div>
         </div>

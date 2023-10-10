@@ -9,6 +9,8 @@ implementation of images in adaptive, so I had to completely rewrite the applica
 compressors) led to the fact that we choose WEBP format. I managed to reduce the size of the bundle from 56 mb
 to 13 mb, i.e. 4.3 times. And yet the work continues!
 
+**UPDATE:** Some interesting atrefact we faced: as we used WEBP format for imgs and not every hosting 
+
  * Some minor scrolling changes to the #about section. At first, the function was also written, but after some tests, i decided to use a third-party library.
 
 
@@ -22,6 +24,9 @@ to 13 mb, i.e. 4.3 times. And yet the work continues!
   <b>Done and set</b>
 - [X] Adding dots to slides(?)<BR>
 <b>Together with the designer, it was decided to add these points for best UX</b>
+
+# New idea of migration/rebuilding project using Vite + yarn.
+
 
 # Library usage:
  * react-response-carousel
