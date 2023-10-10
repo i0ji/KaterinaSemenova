@@ -54,6 +54,7 @@
     "react-responsive": "^9.0.2",
     "react-responsive-carousel": "^3.2.23",
     "react-scroll": "^1.8.9",
+    "vite-plugin-minify": "^1.5.2",
     "webpack-bundle-analyzer": "^4.9.0"
   }
 }

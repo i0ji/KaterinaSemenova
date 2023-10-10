@@ -1,4 +1,5 @@
 ## Website for graphic designer **Katerina Semenova** - [HERE!](https://katerinasemenova.ru).
+### Current version: 2.0.0/10.10.23
 ### My first freelance experience in creating, optimizing, indexing, customizing and launching a site from the moment I first saw the layout and interacted with the designer to putting it into production.
 
 ### In the course of work, some features  were reworked:
@@ -17,32 +18,37 @@ to 13 mb, i.e. 4.3 times. And yet the work continues!
 
 # New idea of migration/rebuilding project using Vite + yarn.
 
-* Since i`ve migrated to vite/yarn i got some issues with fonts and dependencies(easily solved by reading docs);
-* Got strange loading speed indicators:
-Issues with imgs size, TBT, LCP, and overall effiency as a result;
+### Vite/yarn migration results: 
+
+* Got some issues with fonts and dependencies(easily solved by reading docs);
+* Got strange loading speed indicators: issues with imgs size, TBT, LCP, and overall effiency as a result;
 * Rather large increase in bundling/building/devserver load speed (increase approximately 4-5 times);
 
 
 
 # Currently/Priority tasks:
-- [X] Indexing (Favicon? Meta description still does not work) - Work is underway to index the site on Yandex.ru and Google.com through the appropriate services<BR>
-  <b>Indexing has ended and i got favicon set. Meta set</b>
-- [ ] Permanent bundle optimising - Further code optimization using webpack-bundler-analyzer tools.
-- [ ] Adding/rewriting some content<BR>
-  <b>In progress. Two more blocks have been added</b>
-- [X] Some space adding between blocks(?)<BR>
-  <b>Done and set</b>
-- [X] Adding dots to slides(?)<BR>
+- [X] Indexing (Favicon? Meta description still does not work) - Work is underway to index the site on Yandex.ru and Google.com through the appropriate services;<BR>
+  <b> - Indexing has ended and i got favicon set</b>
+- [ ] Permanent bundle optimising;
+- [X] Adding/rewriting some content;<BR>
+  <b>- In progress. Two more blocks have been added</b>
+- [X] Some space adding between blocks;<BR>
+  <b> - Done and set</b>
+- [X] Adding dots to slides;<BR>
 ### + to do
-- [ ] adding lazy loading;
-- [ ] sizing imgs;
+- [ ] Adding lazy loading;
+- [ ] Sizing imgs;
 
-<b>Together with the designer, it was decided to add these points for best UX</b>
+# vite plugins added and used:
+ * vite-plugin-minify
+ * 
 
-
+ v.2.0.0 (first vite/yarn build) 9.3 MB, 51 files 
+ js - 2.28 Kb
+ CSS - 63,66 kB
 
 
 # Library usage:
- * react-response-carousel
- * react-scroll
- * react-helmet(?) - will depend on the results of indexing - <b>No needed</b>
+ * react-response-carousel;
+ * react-scroll;
+
