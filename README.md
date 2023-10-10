@@ -9,8 +9,9 @@ implementation of images in adaptive, so I had to completely rewrite the applica
 compressors) led to the fact that we choose WEBP format. I managed to reduce the size of the bundle from 56 mb
 to 13 mb, i.e. 4.3 times. And yet the work continues!
 
-**UPDATE:** Some interesting atrefact we faced: as we`ve used WEBP format for imgs and not every hosting provider supports this format by default(or without any additional settings) so we had some problems with images like this:
-**SOLVED:** By recompiling slides to WEBP using Figma`s plugin, rebuilding project and redeploy.
+**UPDATE:** Some interesting atrefact we faced: as we've used WEBP format for imgs and not every hosting provider supports this format by default(or without any additional settings) so we had some problems with images like this:
+
+**SOLVED:** By recompiling slides to WEBP using Figma's plugin, rebuilding project and redeploy.
 
  * Some minor scrolling changes to the #about section. At first, the function was also written, but after some tests, i decided to use a third-party library.
 
