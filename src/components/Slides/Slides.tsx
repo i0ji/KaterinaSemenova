@@ -38,7 +38,7 @@ export default function Slides(props: int.ISlidesData, ) {
                 {...attributes}
             >{props.slides.map((image: int.ISlides) => (
                 <div key={image.id}>
-                    <img key={image.id} src={image.img} alt={props.description}/>
+                    <img loading="lazy" key={image.id} src={image.img} alt={props.description}/>
                 </div>))}
             </Carousel>
             <div className={'description'}>

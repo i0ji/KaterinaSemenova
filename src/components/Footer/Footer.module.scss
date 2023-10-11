@@ -3,7 +3,7 @@
   justify-content: space-between;
   flex-direction: column;
 
-  h5 {
+  h4 {
     font-weight: 500;
   }
 
@@ -25,8 +25,42 @@
     flex-direction: row;
     justify-content: space-between;
 
+
+
     div {
       width: 54%;
+      display: flex;
+      flex-direction: column;
+
+      a {
+        position: relative;
+        display: inline-block;
+        cursor: pointer;
+        text-decoration: none;
+        color: black;
+      }
+
+      a:visited {
+        color: black;
+      }
+
+      a:after {
+        display: block;
+        content: "";
+        background-color: black;
+        height: 1px;
+        width: 0;
+        left: 50%;
+        position: absolute;
+        -webkit-transition: width .3s ease-in-out;
+        transition: width .3s ease-in-out;
+        transform: translateX(-50%);
+      }
+
+      a:hover:after,
+      a:focus:after {
+        width: 100%;
+      }
     }
   }
 
@@ -48,6 +82,7 @@
         width: 100%;
       }
     }
+
     .footer__contacts {
       h5 {
         display: none;

@@ -6,6 +6,9 @@ import {Data} from "./data/Storage"
 import * as int from "./interfaces"
 
 export default function App() {
+
+    console.log('version: 2.0.0')
+
     return (
         <>
             <Header/>

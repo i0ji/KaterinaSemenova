@@ -47,7 +47,7 @@ table {
 
 @font-face {
   font-family: "Century-gothic";
-  src: url("../assets/Fonts/centurygothic.ttf");
+  src: local("Century-gothic"), url("@/assets/fonts/centurygothic.woff") format("woff");
   font-style: normal;
   font-weight: 400;
   font-display: swap;

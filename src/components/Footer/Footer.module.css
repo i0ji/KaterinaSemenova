@@ -3,7 +3,7 @@
   justify-content: space-between;
   flex-direction: column;
 }
-.footer h5 {
+.footer h4 {
   font-weight: 500;
 }
 .footer__about {
@@ -24,6 +24,34 @@
 }
 .footer__contacts div {
   width: 54%;
+  display: flex;
+  flex-direction: column;
+}
+.footer__contacts div a {
+  position: relative;
+  display: inline-block;
+  cursor: pointer;
+  text-decoration: none;
+  color: black;
+}
+.footer__contacts div a:visited {
+  color: black;
+}
+.footer__contacts div a:after {
+  display: block;
+  content: "";
+  background-color: black;
+  height: 1px;
+  width: 0;
+  left: 50%;
+  position: absolute;
+  -webkit-transition: width 0.3s ease-in-out;
+  transition: width 0.3s ease-in-out;
+  transform: translateX(-50%);
+}
+.footer__contacts div a:hover:after,
+.footer__contacts div a:focus:after {
+  width: 100%;
 }
 .footer hr {
   width: 100%;
