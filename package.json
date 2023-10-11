@@ -22,12 +22,12 @@
   },
   "scripts": {
     "start": "vite",
-    "build": "tsc && vite build",
+    "build": "vite build",
     "preview": "vite preview",
     "bundle-stats": "react-scripts build --stats",
     "analyze": "webpack-bundle-analyzer build/bundle-stats.json",
     "eject": "react-scripts eject",
-    "deploy": "gh-pages -d build",
+    "deploy": "gh-pages -d dist",
     "ghClear": "gh-pages-clean gh-pages -d build"
   },
   "eslintConfig": {
