@@ -1,9 +1,9 @@
 ## Website for graphic designer **Katerina Semenova** - [HERE!](https://katerinasemenova.ru).
-## My first freelance experience in creating, optimizing, indexing, customizing and launching a site from the moment I first saw the layout and interacted with the designer to putting it into production.
+### My first freelance experience in creating, optimizing, indexing, customizing and launching a site from the moment I first saw the layout and interacted with the designer to putting it into production.
 ### Current version: 2.0.0/10.10.23
 
 
-### In the course of work, some features  were reworked:
+### in the course of work, some features  were reworked:
  * At first, the slider was written from scratch, without a third-party library, but there were problems with the dynamic
 implementation of images in adaptive, so I had to completely rewrite the application for the new slider carousel.
 
@@ -17,9 +17,9 @@ to 13 mb, i.e. 4.3 times. And yet the work continues!
 
  * Some minor scrolling changes to the #about section. At first, the function was also written, but after some tests, i decided to use a third-party library.
 
-# New idea of migration/rebuilding project using Vite + yarn:
+# Migration/rebuilding project using vite + yarn
 
-### Vite/yarn migration results and issues:
+### migration results and issues:
 * Got some issues with fonts(404 face-font not found) **->** solved by adding viteTSconfigPaths and setting vite.config.ts: adding the path alias;
 * Got strange loading speed indicators: issues with images size, TBT, LCP, and overall effiency as a result **->** still optimising/testing;
 * Multiple errors in dependencies (TS17004, TS1259) **->** setting the tsconfig.app.json
@@ -36,16 +36,16 @@ to 13 mb, i.e. 4.3 times. And yet the work continues!
 - [X] Adding dots to slides;<BR>
 - [ ] Permanent bundle optimising;
 
-### + to do
+### next to do
 - [ ] Add PurgeCSS
 - [X] Adding lazy loading;
 - [ ] Sizing images;
 
-# Plugins usage:
+### plugins usage:
  * vite-plugin-minify
  * gh-pages(for visual testing and coordination with designer)
 
-# Library usage:
+### library usage:
  * react-response-carousel;
  * react-scroll;
 
