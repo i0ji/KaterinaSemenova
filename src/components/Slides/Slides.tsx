@@ -5,7 +5,7 @@ import {Carousel} from "react-responsive-carousel";
 import './Slides.scss'
 import * as int from "../../interfaces";
 
-export default function Slides(props: int.ISlidesData, ) {
+export default function Slides(props: int.ISlidesData,) {
 
     const [currentIndex, setCurrentIndex] = useState(0);
 
@@ -32,7 +32,8 @@ export default function Slides(props: int.ISlidesData, ) {
 
     return (
 
-        <div className={ props.lastSlide ? (`${styles.section_last_slide} ${styles.section_margin}`) : (`${styles.section} ${styles.section_margin}`)}
+        <div
+            className={props.lastSlide ? (`${styles.section_last_slide} ${styles.section_margin}`) : (`${styles.section} ${styles.section_margin}`)}
         >
             <Carousel
                 {...attributes}

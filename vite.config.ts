@@ -1,21 +1,19 @@
-import { defineConfig } from 'vite'
-import viteTsconfigPaths from 'vite-tsconfig-paths'
-
+import {defineConfig} from "vite";
 import path from "path";
 
-defineConfig({
-    base: '',
+export default defineConfig({
+    base: './',
+    build: {
+        assetsInlineLimit: 0,
+        outDir: 'dist',
+        minify: true
+    },
     resolve: {
         alias: {
             '@': path.resolve(__dirname, 'src'),
         }
     },
-    plugins: [
-        viteTsconfigPaths(),
-    ],
     server: {
-        open: true,
-        port: 3000,
-        hmr: true,
-    },
+        hmr: true
+    }
 })
