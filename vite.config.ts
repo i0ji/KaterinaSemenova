@@ -1,10 +1,19 @@
-import { defineConfig } from 'vite';
-import react from '@vitejs/plugin-react';
-import viteTsconfigPaths from 'vite-tsconfig-paths';
+import {defineConfig} from "vite";
+import path from "path";
 
 export default defineConfig({
-    plugins: [
-        react(),
-        viteTsconfigPaths(),
-    ],
-});
+    base: './',
+    build: {
+        assetsInlineLimit: 0,
+        outDir: 'dist',
+        minify: true
+    },
+    resolve: {
+        alias: {
+            '@': path.resolve(__dirname, 'src'),
+        }
+    },
+    server: {
+        hmr: true
+    }
+})
