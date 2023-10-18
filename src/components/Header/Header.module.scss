@@ -6,34 +6,6 @@
   height: 45px;
   margin-bottom: 40px;
   justify-content: space-between;
-
-  a {
-    position: relative;
-    cursor: pointer;
-    text-decoration: none;
-  }
-
-  a:visited {
-    color: black;
-  }
-
-  a:after {
-    display: block;
-    content: "";
-    background-color: black;
-    height: 1px;
-    width: 0;
-    left: 50%;
-    position: absolute;
-    -webkit-transition: width .3s ease-in-out;
-    transition: width .3s ease-in-out;
-    transform: translateX(-50%);
-  }
-
-  a:hover:after,
-  a:focus:after {
-    width: 100%;
-  }
 }
 
 @media (max-width: 700px) {

@@ -28,7 +28,7 @@
 * Issue with fonts in the bundle(404 face-font not found);<br>
 >Solved by adding alias to `vite.config.ts` and '@' in my `_fonts.scss` in the beginning of the source to font;<br>
 
-* Strange loading speed indicators: issues with images size, `TBT`, `LCP`, and overall efficiency as a result
+* Strange loading speed indicators: issues with images size, `TBT`, `LCP`, and overall efficiency as a result;
 >still optimising/testing;<br>
 
 * Multiple errors in dependencies (`TS17004`, `TS1259`);<br>
@@ -40,10 +40,10 @@
 
 * Multiple attempts to optimize the bundle (in particular, the static image format: `AVIF`, `PNG`, `tinyPNG` through `Figma`
   compressors) led to the fact that we choose `WEBP` format. I managed to reduce the size of the bundle from 56 mb
-  to 13 mb,i.e. 4.3 times. And yet the work continues!
+  to 13 mb, i.e., 4.3 times. And yet the work continues!
 
 > [!IMPORTANT]
-**UPDATE:** Some interesting image-artefact we faced: as we've used `WEBP` format for images and not every hosting provider supports this format by default (or without any additional settings) so we had some problems with displaying images.<BR>**SOLVED:** By reloading problematic image files on the server;
+**UPDATE:** Some interesting image-artefact we faced: as we`ve used `WEBP` format for images and not every hosting provider supports this format by default (or without any additional settings) so we had some problems with displaying images.<BR>**SOLVED:** By reloading problematic image files on the server;
 
 * Some minor scrolling changes to the `#about` section. At first, the function was also written, but after some tests, I decided to use a third-party library;
 

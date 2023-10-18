@@ -13,16 +13,18 @@ export default function Footer() {
             >
                 <h4>Катерина Семёнова</h4>
                 <article>Графический дизайнер с&nbsp;6-летним опытом. На&nbsp;данный момент занимаюсь разработкой
-                    и&nbsp;поддержкой фирменных стилей, навигации, созданием key visual, POS-материалов, полиграфической
-                    продукции для&nbsp;отелей, бизнес-центров и&nbsp;торговых центров.<br/>
+                    и&nbsp;поддержкой фирменных стилей, навигации, созданием key visual, POS&nbsp;-&nbsp;материалов, полиграфической
+                    продукции для&nbsp;отелей, бизнес-центров и&nbsp;торговых&nbsp;центров.<br/>
                     <br/>
-                    Прошла годовой курс «UX/UI: дизайн цифровых
-                    продуктов» в&nbsp;школе BBE, а&nbsp;так&nbsp;же&nbsp;курсы «Айдентика» и&nbsp;«Креативное
-                    мышление».
+                    В 2017&nbsp;году получила высшее образование в&nbsp;Национальном Институте Дизайна
+                    по&nbsp;направлению «Графический
+                    дизайн».
                     <br/>
                     <br/>
-                    В&nbsp;2017 году получила высшее
-                    образование в&nbsp;Национальном Институте Дизайна по&nbsp;направлению «Графический дизайн».
+                    Участвовала в&nbsp;улучшении функционала инструмента Поиск для&nbsp;приложения Иви в&nbsp;процессе
+                    прохождения
+                    годового курса «UX/UI: дизайн цифровых продуктов». Ознакомиться с&nbsp;проектом можно на&nbsp;
+                    <a href="https://www.behance.net/KateMojojo">Behance</a>.
                 </article>
 
             </div>
@@ -34,8 +36,9 @@ export default function Footer() {
                 <h4>Контакты</h4>
                 <div>
                     <p><a href="tel:+79055386075">905 538 60 75</a></p>
-                    <p><a href="mailto:katerinasemenova93@gmail.com">KaterinaSemenova93@gmail.com</a></p>
+                    <p><a href="mailto:KaterinaSemenovaV@ya.ru">KaterinaSemenovaV@ya.ru</a></p>
                     <p><a href="https://t.me/KateSemenovaV">KateSemenovaV</a></p>
+                    <p><a href="https://www.behance.net/KateMojojo">Behance/KateSemenova</a></p>
                 </div>
             </div>
         </div>

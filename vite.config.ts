@@ -1,3 +1,5 @@
+// noinspection JSUnusedGlobalSymbols
+
 import {defineConfig} from "vite";
 import path from "path";
 
