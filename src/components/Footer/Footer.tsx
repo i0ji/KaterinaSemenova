@@ -24,7 +24,7 @@ export default function Footer() {
                     Участвовала в&nbsp;улучшении функционала инструмента Поиск для&nbsp;приложения Иви в&nbsp;процессе
                     прохождения
                     годового курса «UX/UI: дизайн цифровых продуктов». Ознакомиться с&nbsp;проектом можно на&nbsp;
-                    <a href="https://www.behance.net/KateMojojo">Behance</a>.
+                    <a href="https://www.behance.net/gallery/182271937/Search-Online-cinema-IVI">Behance</a>.
                 </article>
 
             </div>
