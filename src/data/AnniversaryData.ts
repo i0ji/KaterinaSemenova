@@ -11,4 +11,4 @@ export const AnniversarySlides: Array<ISlides> = [
     {id: 3, img: a4},
 ]
 
-export const AnniversaryDescription = `Бассейн «Чайка» —— оформление к\u00A069-летию бассейна —— 2022`;
+export const AnniversaryDescription = `Бассейн «Чайка» —— оформление к\u00A065-летию бассейна —— 2022`;
