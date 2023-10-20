@@ -1,26 +1,30 @@
-//noinspection ALL
+//noinspection ALL,CssUnusedSymbol
 .carousel.carousel-slider {
   overflow: inherit;
   margin-bottom: 30px;
 }
 
+//noinspection CssUnusedSymbol
 .carousel .control-next.control-arrow, .carousel .control-next.control-arrow:hover {
   opacity: .3;
   background: linear-gradient(90deg, transparent, black) transparent;
   right: 0;
 }
 
+//noinspection CssUnusedSymbol
 .carousel .control-next.control-arrow:before, .carousel .control-prev.control-arrow:before {
   content: none;
   border-left: 8px solid #fff;
 }
 
+//noinspection CssUnusedSymbol
 .carousel .control-prev.control-arrow, .carousel .control-prev.control-arrow:hover {
   opacity: .3;
   background: linear-gradient(-90deg, transparent, black) transparent;
   left: 0;
 }
 
+//noinspection CssUnusedSymbol
 .carousel .control-arrow, .carousel.carousel-slider .control-arrow {
   padding: 0;
   margin: 0;
@@ -41,6 +45,7 @@
 }
 
 @media (max-width: 700px) {
+  //noinspection CssUnusedSymbol
   .carousel .control-arrow, .carousel.carousel-slider .control-arrow {
     width: 0;
   }
@@ -54,6 +59,7 @@
   }
 }
 
+//noinspection CssUnusedSymbol
 .last_slide {
   margin-bottom: 30px!important;
 }
