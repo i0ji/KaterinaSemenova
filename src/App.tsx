@@ -7,7 +7,7 @@ import * as int from "./interfaces"
 
 export default function App() {
 
-    console.log('version: 2.1.1')
+    console.log('version: 2.2.1')
 
     return (
         <>
