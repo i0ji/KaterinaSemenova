@@ -1,9 +1,10 @@
 import React from 'react';
-import Header from './components/Header/Header';
-import Footer from './components/Footer/Footer';
-import Slides from "./components/Slides/Slides";
-import {Data} from "./data/Storage"
-import * as int from "./interfaces"
+import * as int from "src/interfaces"
+import Header from "components/Header/Header";
+import Slides from "components/Slides/Slides";
+import Footer from "components/Footer/Footer";
+import {Data} from "data/Storage";
+
 
 export default function App() {
 

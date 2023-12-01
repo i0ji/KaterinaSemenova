@@ -1,7 +1,6 @@
 // noinspection JSUnusedGlobalSymbols
 
 import {defineConfig} from "vite";
-import path from "path";
 
 export default defineConfig({
     base: './',
@@ -12,7 +11,11 @@ export default defineConfig({
     },
     resolve: {
         alias: {
-            '@': path.resolve(__dirname, 'src'),
+            components: "/src/components",
+            assets: "/src/assets",
+            data: "/src/data",
+            styles: "/src/styles",
+            src: "."
         }
     },
     server: {

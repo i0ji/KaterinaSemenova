@@ -4,8 +4,6 @@ import {Link} from "react-scroll";
 
 export default function Header() {
 
-
-
     return (
         <header className={styles.header}>
             <Link to={'about'}>

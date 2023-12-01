@@ -1,7 +1,7 @@
-import s1 from '../assets/NoraStyleSlides/s1.webp';
-import s2 from '../assets/NoraStyleSlides/s2.webp';
-import s3 from '../assets/NoraStyleSlides/s3.webp';
-import {ISlides} from "../interfaces";
+import s1 from 'assets/NoraStyleSlides/s1.webp';
+import s2 from 'assets/NoraStyleSlides/s2.webp';
+import s3 from 'assets/NoraStyleSlides/s3.webp';
+import {ISlides} from "src/interfaces";
 
 export const NoraStyleSlides: Array<ISlides> = [
     {id: 0, img: s1},

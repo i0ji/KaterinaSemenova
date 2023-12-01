@@ -1,9 +1,9 @@
 import React, {useState} from "react";
 import "react-responsive-carousel/lib/styles/carousel.min.css";
-import styles from './Slides.module.scss';
 import {Carousel} from "react-responsive-carousel";
+import styles from './Slides.module.scss';
 import './Slides.scss'
-import * as int from "../../interfaces";
+import * as int from "src/interfaces";
 
 export default function Slides(props: int.ISlidesData,) {
 

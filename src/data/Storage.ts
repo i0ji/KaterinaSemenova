@@ -1,11 +1,11 @@
-import {AnniversarySlides, AnniversaryDescription} from "./AnniversaryData";
-import {NagaStyleSlides, NagaStyleDescription} from "./NagaStyleData";
-import {NoraStyleSlides, NoraStyleDescription} from "./NoraStyleData";
-import {NoraQuizSlides, NoraQuizDescription} from "./NoraQuizData";
-import {PatternSlides, PatternDescription} from "./PatternData";
-import {SeagullSlides, SeagullDescription} from "./SeagullData";
-import {TsumSlides, TsumDescription} from "./TsumData";
-import {ISlidesData} from "../interfaces";
+import {AnniversarySlides, AnniversaryDescription} from "data/AnniversaryData";
+import {NagaStyleSlides, NagaStyleDescription} from "data/NagaStyleData";
+import {NoraStyleSlides, NoraStyleDescription} from "data/NoraStyleData";
+import {NoraQuizSlides, NoraQuizDescription} from "data/NoraQuizData";
+import {PatternSlides, PatternDescription} from "data/PatternData";
+import {SeagullSlides, SeagullDescription} from "data/SeagullData";
+import {TsumSlides, TsumDescription} from "data/TsumData";
+import {ISlidesData} from "src/interfaces";
 
 export const Data: Array<ISlidesData> = [
     {
