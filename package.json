@@ -4,20 +4,20 @@
   "private": true,
   "homepage": "./",
   "dependencies": {
-    "@testing-library/jest-dom": "^6.1.4",
-    "@testing-library/react": "^14.0.0",
+    "@testing-library/jest-dom": "^6.1.5",
+    "@testing-library/react": "^14.1.2",
     "@testing-library/user-event": "^14.5.1",
-    "@types/jest": "^29.5.6",
-    "@types/node": "^20.8.7",
-    "@types/react": "^18.2.30",
-    "@types/react-dom": "^18.2.14",
-    "@vitejs/plugin-react": "^4.1.0",
+    "@types/jest": "^29.5.11",
+    "@types/node": "^20.10.5",
+    "@types/react": "^18.2.45",
+    "@types/react-dom": "^18.2.18",
+    "@vitejs/plugin-react": "^4.2.1",
     "react": "^18.2.0",
     "react-dom": "^18.2.0",
-    "sass": "^1.69.4",
-    "typescript": "^5.2.2",
-    "vite": "^4.5.0",
-    "vite-tsconfig-paths": "^4.2.1",
+    "sass": "^1.69.5",
+    "typescript": "^5.3.3",
+    "vite": "^5.0.10",
+    "vite-tsconfig-paths": "^4.2.2",
     "web-vitals": "^3.5.0"
   },
   "scripts": {
@@ -49,12 +49,12 @@
     ]
   },
   "devDependencies": {
-    "@types/react-scroll": "^1.8.9",
-    "gh-pages": "^6.0.0",
+    "@types/react-scroll": "^1.8.10",
+    "gh-pages": "^6.1.1",
     "react-responsive": "^9.0.2",
     "react-responsive-carousel": "^3.2.23",
     "react-scroll": "^1.8.9",
     "vite-plugin-minify": "^1.5.2",
-    "webpack-bundle-analyzer": "^4.9.0"
+    "webpack-bundle-analyzer": "^4.10.1"
   }
 }

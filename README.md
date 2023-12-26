@@ -28,7 +28,7 @@
 
 ### Migration results and issues:
 
-* Easy alias addition;<br>
+* Easy alias addition - refactored in tsconfig and vite.config <br>
 * Rather large load speed increase in bundling/building/devserver (increase approximately 4-5 times);<br>
 * Issue with fonts in the bundle(404 face-font not found);<br>
   <b>- Solved by adding alias to `vite.config.ts` and '@' in my `_fonts.scss` in the beginning of the source to
