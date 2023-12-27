@@ -31,7 +31,6 @@ export default function Slides(props: int.ISlidesData,) {
     }
 
     return (
-
         <div
             className={props.lastSlide ? (`${styles.section_last_slide} ${styles.section_margin}`) : (`${styles.section} ${styles.section_margin}`)}
         >

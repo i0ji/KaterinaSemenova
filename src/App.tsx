@@ -5,10 +5,9 @@ import Slides from "components/Slides/Slides";
 import Footer from "components/Footer/Footer";
 import {Data} from "data/Storage";
 
-
 export default function App() {
 
-    //console.log('version: 2.2.2')
+    console.log('version: 2.2.3')
 
     return (
         <>
