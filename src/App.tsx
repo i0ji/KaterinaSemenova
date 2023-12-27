@@ -8,7 +8,7 @@ import {Data} from "data/Storage";
 
 export default function App() {
 
-    console.log('version: 2.2.1')
+    //console.log('version: 2.2.2')
 
     return (
         <>
