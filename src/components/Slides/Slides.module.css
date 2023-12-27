@@ -7,14 +7,12 @@
 }
 
 @media (max-width: 700px) {
-  .section_margin {
+    .section_margin {
     margin-bottom: 60px;
   }
 }
 @media (max-width: 390px) {
-  .section_margin {
+    .section_margin {
     margin-bottom: 30px;
   }
 }
-
-/*# sourceMappingURL=Slides.module.css.map */
