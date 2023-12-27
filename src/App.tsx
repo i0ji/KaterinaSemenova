@@ -7,7 +7,7 @@ import {Data} from "data/Storage";
 
 export default function App() {
 
-    console.log('version: 2.2.3')
+    console.log('version: 2.4.0')
 
     return (
         <>

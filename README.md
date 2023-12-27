@@ -1,10 +1,28 @@
 # Website for graphic designer **Katerina Semenova** - [HERE!](https://katerinasemenova.ru).
 
-## My first freelance experience in creating, optimizing, indexing, customizing and launching a site from the moment I first saw the layout and interacted with the designer to putting it into production.
+### My first freelance experience in creating, optimizing, indexing, customizing and launching a site from the moment I first saw the layout and interacted with the designer to putting it into production.
 
 <br />
 
-> Current version: 2.2.1/20.10.23
+> Current version: 2.4.0/27.12.23
+
+### Plugins usage:
+
+* gh-pages (for visual testing and coordination with designer);
+
+### Library usage:
+
+* react-response-carousel;
+* react-scroll;
+
+### For now:
+
+Looking for a method to make a spinner or smooth render lib while images load;
+Tried the "render-smooth-image-react" library, but it does not cover the needs of networks;
+Last update over a year ago, and React 17 required;
+Keep looking...
+
+<br>
 
 ### Current/Priority tasks:
 
@@ -57,13 +75,3 @@
 
 * Some minor scrolling changes to the `#about` section. At first, the function was also written, but after some tests, I
   decided to use a third-party library;
-
-### Plugins usage:
-
-* vite-plugin-minify;
-* gh-pages (for visual testing and coordination with designer);
-
-### Library usage:
-
-* react-response-carousel;
-* react-scroll;
