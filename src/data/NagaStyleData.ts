@@ -19,4 +19,4 @@ export const NagaStyleSlides: Array<ISlides> = [
     {id: 7, img: m8}
 ]
 
-export const NagaStyleDescription = 'БЦ «Нагатинский» —— айдентика —— 2022';
+export const NagaStyleDescription = 'БЦ «Нагатинский» —— Айдентика —— 2022';

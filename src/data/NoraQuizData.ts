@@ -15,4 +15,4 @@ export const NoraQuizSlides: Array<ISlides> = [
     {id: 5, img: q6},
 ]
 
-export const NoraQuizDescription = 'ТРЦ Нора  ——  оформление игры «Квиз» —— 2022';
+export const NoraQuizDescription = 'ТРЦ Нора  ——  Оформление игры «Квиз» —— 2022';

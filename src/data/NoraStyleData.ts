@@ -9,4 +9,4 @@ export const NoraStyleSlides: Array<ISlides> = [
     {id: 2, img: s3}
 ]
 
-export const NoraStyleDescription = 'ТРЦ Нора  ——  айдентика —— 2021';
+export const NoraStyleDescription = 'ТРЦ Нора  ——  Айдентика —— 2021';

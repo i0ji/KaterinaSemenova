@@ -19,4 +19,4 @@ export const SeagullSlides: Array<ISlides> = [
     {id: 7, img: s8}
 ]
 
-export const SeagullDescription = 'Бассейн «Чайка» —— айдентика —— 2022';
+export const SeagullDescription = 'Бассейн «Чайка» —— Айдентика —— 2022';
