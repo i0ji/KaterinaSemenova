@@ -1,6 +1,6 @@
 {
   "name": "semenova",
-  "version": "0.1.0",
+  "version": "2.2.3",
   "private": true,
   "homepage": "./",
   "dependencies": {
@@ -16,7 +16,7 @@
     "react-dom": "^18.2.0",
     "sass": "^1.69.5",
     "typescript": "^5.3.3",
-    "vite": "^5.0.10",
+    "vite": "5.0.10",
     "vite-tsconfig-paths": "^4.2.2",
     "web-vitals": "^3.5.0"
   },
