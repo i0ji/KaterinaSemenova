@@ -1,13 +1,12 @@
-import React from 'react';
-import * as int from "src/interfaces"
-import Header from "components/Header/Header";
-import Slides from "components/Slides/Slides";
-import Footer from "components/Footer/Footer";
-import {Data} from "data/Storage";
+import React from "react";
+import * as int from "src/interfaces";
+import {Footer, Header, Slides} from "components/index"
+
+import {Data} from "src/data";
 
 export default function App() {
 
-    console.log('version: 2.2.3')
+    console.log('version: 2.3.1')
 
     return (
         <>
