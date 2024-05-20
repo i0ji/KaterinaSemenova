@@ -6,7 +6,7 @@ import {Data} from "src/data";
 
 export default function App() {
 
-    console.log('version: 2.3.1')
+    console.log('version: 2.3.1.1');
 
     return (
         <>

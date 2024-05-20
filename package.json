@@ -1,17 +1,19 @@
 {
   "name": "p_kate_site",
-  "version": "2.3.1",
+  "version": "2.3.1.1",
   "private": true,
   "homepage": "./",
   "packageManager": "yarn@4.2.1",
   "devDependencies": {
-    "@types/react": "^18.3.1",
+    "@types/react": "18.3.2",
     "@types/react-dom": "^18.3.0",
     "@types/react-scroll": "^1.8.10",
+    "eslint": "^9.3.0",
     "gh-pages": "^6.1.1",
+    "prettier": "^3.2.5",
     "react-responsive-carousel": "^3.2.23",
     "react-scroll": "^1.9.0",
-    "sass": "^1.77.0",
+    "sass": "^1.77.2",
     "typescript": "^5.4.5"
   },
   "scripts": {
@@ -19,7 +21,6 @@
     "build": "vite build",
     "preview": "vite preview",
     "bundle-stats": "react-scripts build --stats",
-    "analyze": "webpack-bundle-analyzer build/bundle-stats.json",
     "eject": "react-scripts eject",
     "deploy": "gh-pages -d dist",
     "ghClear": "gh-pages-clean gh-pages -d build"
