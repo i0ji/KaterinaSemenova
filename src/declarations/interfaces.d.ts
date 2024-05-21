@@ -4,7 +4,7 @@ export interface ISlides {
 }
 
 export interface ISlidesData {
-    slides: Array<SlidesInterface>;
+    slides: Array<ISlides>;
     description: string;
     id?: number;
     lastSlide?: boolean;

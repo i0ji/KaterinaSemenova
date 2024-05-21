@@ -25,6 +25,7 @@
     "baseUrl": "src",
     "paths": {
       "components/*" : ["components/*"],
+      "declarations/*" : ["declarations/*"],
       "assets/*" : ["assets/*"],
       "data/*" : ["data/*"],
       "styles/*" : ["styles/*"],
@@ -35,6 +36,6 @@
     "src"
   ],
   "files": [
-    "vite.config.ts"
+    "vite.config.ts",
   ]
 }
