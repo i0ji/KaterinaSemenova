@@ -3,11 +3,18 @@
 import {defineConfig} from "vite";
 
 export default defineConfig({
-    base: './',
+    base: "./",
     build: {
         assetsInlineLimit: 0,
-        outDir: 'dist',
-        minify: true
+        outDir: "dist",
+        minify: true,
+    },
+    css: {
+        preprocessorOptions: {
+            scss: {
+                silenceDeprecations: ["legacy-js-api"],
+            },
+        },
     },
     resolve: {
         alias: {
@@ -16,10 +23,10 @@ export default defineConfig({
             assets: "/src/assets",
             data: "/src/data",
             styles: "/src/styles",
-            src: "."
-        }
+            src: ".",
+        },
     },
     server: {
-        hmr: true
-    }
-})
+        hmr: true,
+    },
+});
