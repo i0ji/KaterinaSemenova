@@ -12,6 +12,8 @@ export default function Slides(props: int.ISlidesData) {
         setCurrentIndex(index);
     };
 
+    let a = 4;
+
     const attributes = {
         preventMovementUntilSwipeScrollTolerance: true,
         swipeScrollTolerance: 50,

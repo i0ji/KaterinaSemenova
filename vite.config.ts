@@ -23,7 +23,7 @@ export default defineConfig({
             assets: "/src/assets",
             data: "/src/data",
             styles: "/src/styles",
-            src: ".",
+            src: "./",
         },
     },
     server: {

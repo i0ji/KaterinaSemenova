@@ -1,51 +1,50 @@
-@import './styles/_reset.scss';
-@import './styles/_font.scss';
+@use "styles/index" as *;
 
 html {
-  scroll-behavior: smooth;
-  display: flex;
-  justify-content: center;
+    scroll-behavior: smooth;
+    display: flex;
+    justify-content: center;
 }
 
 body {
-  max-width: 1840px;
-  margin: 0 auto;
-  background-color: transparent;
+    max-width: 1840px;
+    margin: 0 auto;
+    background-color: transparent;
 
-  a {
-    position: relative;
-    display: inline-block;
-    cursor: pointer;
-    text-decoration: none;
-    color: black;
-  }
+    a {
+        position: relative;
+        display: inline-block;
+        cursor: pointer;
+        text-decoration: none;
+        color: black;
+    }
 
-  a:visited {
-    color: black;
-  }
+    a:visited {
+        color: black;
+    }
 
-  a:after {
-    display: block;
-    content: "";
-    background-color: black;
-    height: 1px;
-    width: 0;
-    left: 50%;
-    position: absolute;
-    -webkit-transition: width .3s ease-in-out;
-    transition: width .3s ease-in-out;
-    transform: translateX(-50%);
-  }
+    a:after {
+        display: block;
+        content: "";
+        background-color: black;
+        height: 1px;
+        width: 0;
+        left: 50%;
+        position: absolute;
+        -webkit-transition: width 0.3s ease-in-out;
+        transition: width 0.3s ease-in-out;
+        transform: translateX(-50%);
+    }
 
-  a:hover:after,
-  a:focus:after {
-    width: 100%;
-  }
+    a:hover:after,
+    a:focus:after {
+        width: 100%;
+    }
 }
 
 @media (max-width: 1839px) {
-  body {
-    width: 95%;
-    margin: 0 auto;
-  }
+    body {
+        width: 95%;
+        margin: 0 auto;
+    }
 }
