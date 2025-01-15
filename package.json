@@ -1,6 +1,6 @@
 {
   "name": "p_kate_site",
-  "version": "2.4.0.0",
+  "version": "2.4.0.1",
   "private": true,
   "homepage": "./",
   "packageManager": "yarn@4.2.1",

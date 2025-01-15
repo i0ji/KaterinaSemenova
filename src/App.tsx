@@ -3,10 +3,8 @@ import {Footer, Header, Slides} from "components/index";
 
 import {Data} from "data/index";
 
-// import {Data} from "src/data";
-
 export default function App() {
-    // console.log("version: 2.3.1.2");
+    console.log("version: 2.4.0.1");
 
     return (
         <>
