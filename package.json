@@ -5,23 +5,23 @@
   "homepage": "./",
   "packageManager": "yarn@4.6.0",
   "devDependencies": {
-    "@eslint/js": "^9.21.0",
+    "@eslint/js": "^9.22.0",
     "@types/react": "19.0.10",
     "@types/react-dom": "^19.0.4",
     "@types/react-scroll": "^1.8.10",
-    "@typescript-eslint/eslint-plugin": "^8.25.0",
-    "@typescript-eslint/parser": "^8.25.0",
-    "eslint": "9.21.0",
-    "eslint-config-prettier": "^10.0.1",
+    "@typescript-eslint/eslint-plugin": "^8.26.0",
+    "@typescript-eslint/parser": "^8.26.0",
+    "eslint": "9.22.0",
+    "eslint-config-prettier": "^10.1.1",
     "eslint-plugin-prettier": "^5.2.3",
     "eslint-plugin-react": "^7.37.4",
     "gh-pages": "^6.3.0",
     "jiti": "^2.4.2",
-    "prettier": "^3.5.2",
+    "prettier": "^3.5.3",
     "react-responsive-carousel": "^3.2.23",
     "react-scroll": "^1.9.3",
     "sass": "^1.85.1",
-    "typescript": "^5.7.3"
+    "typescript": "^5.8.2"
   },
   "scripts": {
     "start": "vite",
@@ -36,6 +36,6 @@
   "dependencies": {
     "react": "^19.0.0",
     "react-dom": "^19.0.0",
-    "vite": "^6.2.0"
+    "vite": "^6.2.1"
   }
 }
