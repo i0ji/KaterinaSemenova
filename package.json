@@ -5,23 +5,23 @@
   "homepage": "./",
   "packageManager": "yarn@4.6.0",
   "devDependencies": {
-    "@eslint/js": "^9.23.0",
-    "@types/react": "19.0.12",
-    "@types/react-dom": "^19.0.4",
+    "@eslint/js": "^9.24.0",
+    "@types/react": "19.1.0",
+    "@types/react-dom": "^19.1.1",
     "@types/react-scroll": "^1.8.10",
-    "@typescript-eslint/eslint-plugin": "^8.29.0",
-    "@typescript-eslint/parser": "^8.29.0",
-    "eslint": "9.23.0",
+    "@typescript-eslint/eslint-plugin": "^8.29.1",
+    "@typescript-eslint/parser": "^8.29.1",
+    "eslint": "9.24.0",
     "eslint-config-prettier": "^10.1.1",
-    "eslint-plugin-prettier": "^5.2.5",
-    "eslint-plugin-react": "^7.37.4",
+    "eslint-plugin-prettier": "^5.2.6",
+    "eslint-plugin-react": "^7.37.5",
     "gh-pages": "^6.3.0",
     "jiti": "^2.4.2",
     "prettier": "^3.5.3",
     "react-responsive-carousel": "^3.2.23",
     "react-scroll": "^1.9.3",
-    "sass": "^1.86.1",
-    "typescript": "^5.8.2"
+    "sass": "^1.86.3",
+    "typescript": "^5.8.3"
   },
   "scripts": {
     "start": "vite",
@@ -36,6 +36,6 @@
   "dependencies": {
     "react": "^19.1.0",
     "react-dom": "^19.1.0",
-    "vite": "^6.2.4"
+    "vite": "^6.2.5"
   }
 }
