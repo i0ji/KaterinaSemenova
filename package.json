@@ -9,23 +9,24 @@
       "path": "node_modules/cz-customizable"
     },
     "cz-customizable": {
-      "config": "config/git/commitizen.js"
+      "config": "./commitizen.config.js"
     }
   },
   "scripts": {
     "start": "vite",
     "build": "vite build",
     "preview": "vite preview",
-    "commit_test": "echo \"Error: no test specified\" && exit 1",
     "bundle-stats": "react-scripts build --stats",
     "eject": "react-scripts eject",
     "deploy": "gh-pages -d dist",
     "lint": "eslint",
-    "ghClear": "gh-pages-clean gh-pages -d build"
+    "ghClear": "gh-pages-clean gh-pages -d build",
+    "prepare": "husky",
+    "test": "echo \"Error: no test specified\" && exit 1"
   },
   "husky": {
     "hooks": {
-      "commit-msg": "commitlint -E HUSKY_GIT_PARAMS './config/git/commitlint.js'"
+      "commit-msg": "commitlint -E HUSKY_GIT_PARAMS -g './config/git/commitlint.js'"
     }
   },
   "dependencies": {
@@ -35,6 +36,7 @@
   },
   "devDependencies": {
     "@commitlint/cli": "^19.8.1",
+    "@commitlint/config-conventional": "^19.8.1",
     "@eslint/js": "^9.26.0",
     "@types/react": "19.1.3",
     "@types/react-dom": "^19.1.3",
