@@ -4,6 +4,35 @@
   "private": true,
   "homepage": "./",
   "packageManager": "yarn@4.6.0",
+  "config": {
+    "commitizen": {
+      "path": "node_modules/cz-customizable"
+    },
+    "cz-customizable": {
+      "config": "config/git/commitizen.js"
+    }
+  },
+  "scripts": {
+    "start": "vite",
+    "build": "vite build",
+    "preview": "vite preview",
+    "commit_test": "echo \"Error: no test specified\" && exit 1",
+    "bundle-stats": "react-scripts build --stats",
+    "eject": "react-scripts eject",
+    "deploy": "gh-pages -d dist",
+    "lint": "eslint",
+    "ghClear": "gh-pages-clean gh-pages -d build"
+  },
+  "husky": {
+    "hooks": {
+      "commit-msg": "commitlint -E HUSKY_GIT_PARAMS -g './config/git/commitlint.js'"
+    }
+  },
+  "dependencies": {
+    "react": "^19.1.0",
+    "react-dom": "^19.1.0",
+    "vite": "^6.3.5"
+  },
   "devDependencies": {
     "@commitlint/cli": "^19.8.1",
     "@eslint/js": "^9.26.0",
@@ -25,34 +54,5 @@
     "react-scroll": "^1.9.3",
     "sass": "^1.88.0",
     "typescript": "^5.8.3"
-  },
-  "config": {
-    "commitizen": {
-      "path": "node_modules/cz-customizable"
-    },
-    "cz-customizable": {
-      "config": "config/git/commitizen.js"
-    }
-  },
-    "husky": {
-    "hooks": {
-      "commit-msg": "commitlint -E HUSKY_GIT_PARAMS -g './config/git/commitlint.js'"
-    }
-  },
-  "scripts": {
-    "start": "vite",
-    "build": "vite build",
-    "preview": "vite preview",
-    "commit_test": "echo \"Error: no test specified\" && exit 1",
-    "bundle-stats": "react-scripts build --stats",
-    "eject": "react-scripts eject",
-    "deploy": "gh-pages -d dist",
-    "lint": "eslint",
-    "ghClear": "gh-pages-clean gh-pages -d build"
-  },
-  "dependencies": {
-    "react": "^19.1.0",
-    "react-dom": "^19.1.0",
-    "vite": "^6.3.5"
   }
 }
