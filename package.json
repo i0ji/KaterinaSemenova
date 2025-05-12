@@ -1,6 +1,6 @@
 {
   "name": "p_kate_site",
-  "version": "2.4.0.1",
+  "version": "2.4.1",
   "private": true,
   "homepage": "./",
   "packageManager": "yarn@4.6.0",
@@ -11,6 +11,7 @@
     "@types/react-scroll": "^1.8.10",
     "@typescript-eslint/eslint-plugin": "^8.32.0",
     "@typescript-eslint/parser": "^8.32.0",
+    "cz-customizable": "^7.4.0",
     "eslint": "9.26.0",
     "eslint-config-prettier": "^10.1.5",
     "eslint-plugin-prettier": "^5.4.0",
@@ -23,6 +24,14 @@
     "sass": "^1.88.0",
     "typescript": "^5.8.3"
   },
+  "config": {
+    "commitizen": {
+      "path": "node_modules/cz-customizable"
+    },
+    "cz-customizable": {
+      "config": "config/git/commitizen.js"
+    }
+  },
   "scripts": {
     "start": "vite",
     "build": "vite build",
@@ -34,7 +43,6 @@
     "ghClear": "gh-pages-clean gh-pages -d build"
   },
   "dependencies": {
-    "commitizen": "^4.3.1",
     "react": "^19.1.0",
     "react-dom": "^19.1.0",
     "vite": "^6.3.5"

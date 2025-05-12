@@ -4,7 +4,7 @@ import {Footer, Header, Slides} from "components/index";
 import {Data} from "data/index";
 
 export default function App() {
-    console.log("version: 2.4.0.1");
+    console.log("version: 2.4.1");
 
     return (
         <>
