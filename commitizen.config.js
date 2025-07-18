@@ -1,7 +1,6 @@
 "use strict";
 
 module.exports = {
-  // Добавим описание на русском языке ко всем типам
   types: [
     {
       value: "build",
